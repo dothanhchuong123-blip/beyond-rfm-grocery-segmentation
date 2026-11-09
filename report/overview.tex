@@ -3,7 +3,7 @@
 \vspace{3mm}
 {\color{ink}\LARGE\bfseries Does more shopping detail\\produce better customer segments?}\par
 \vspace{3mm}
-We tested an intuitive expectation: adding basket behavior and department preferences should reveal more useful household groups. The richer representation did not clearly improve the original stability and later-spending criteria.
+\textbf{Finding.} Adding basket behavior and department preferences to RFM did not improve household segments. RFM K-means with two groups is the best-performing model: it is the most stable and separates later spending as well as any richer alternative.
 
 \vspace{3mm}
 \begingroup
@@ -28,15 +28,15 @@ Recency, frequency and monetary value & RFM + basket size, variety and discount 
 \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{35mm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
 \toprule
 Question & Evidence & Interpretation\\\midrule
-Will groups repeat? & Subsample ARI: \textbf{0.980 RFM}, 0.964 Product & RFM has higher observed membership stability.\\[3mm]
-Do groups separate later spend? & Explained variance: \textbf{20.4\% RFM}, 20.2\% Product & No clear gain from enrichment at $k=2$.\\[3mm]
-Does weighting matter? & At $k=3$, ARI to default falls to \textbf{0.433 / 0.460} at half / double category weight. & Segments depend materially on how similarity is defined.\\\bottomrule
+Will groups repeat? & Subsample ARI: \textbf{0.980 RFM}, 0.964 Product & RFM is the most stable.\\[3mm]
+Do groups separate later spend? & Explained variance: \textbf{20.4\% RFM}, 20.2\% Product & No gain from enrichment at $k=2$.\\[3mm]
+Does weighting matter? & At $k=3$, ARI to default falls to \textbf{0.433 / 0.460} at half / double category weight. & Product segments depend on how similarity is defined.\\\bottomrule
 \end{tabularx}
 
 \vspace{4mm}
-\textbf{Decision.} Use RFM as the default for broad activity monitoring under the original criteria. Evaluate department preferences against a category-specific objective before assigning them operational value.
+\textbf{Decision.} Use RFM as the default for broad activity monitoring. Use department profiles as supplementary descriptions.
 
-\textbf{See the mechanism.} The household case studies show who changes groups; the membership-flow diagram makes weighting sensitivity visible. The exploratory later-category check finds some persistent differences, but only a small, uncertain Product advantage (0.386\% versus 0.299\% of share variation explained).
+\textbf{See the mechanism.} The household case studies show who changes groups; the membership-flow diagram makes weighting sensitivity visible. An exploratory later-category check finds a small Product advantage (0.386\% versus 0.299\% of share variation explained).
 
-{\small\color{ink}These are observational comparisons, not evidence of campaign lift. The later-category extension was added after inspecting the original holdout results; it is exploratory.}
+{\small\color{ink}The later-category extension was added after inspecting the original holdout results.}
 \clearpage

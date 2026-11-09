@@ -28,15 +28,15 @@ URL = "https://www.kaggle.com/api/v1/datasets/download/frtgnn/dunnhumby-the-comp
 
 
 def acquire():
-    if (
-        not (RAW / "transaction_data.csv").exists()
-        or not (RAW / "product.csv").exists()
-    ):
+    # Two tables feed the clustering; four more are used only for external validation.
+    needed = ["transaction_data.csv", "product.csv", "hh_demographic.csv",
+              "campaign_table.csv", "campaign_desc.csv", "coupon_redempt.csv"]
+    if any(not (RAW / n).exists() for n in needed):
         z = RAW / "dunnhumby.zip"
         if not z.exists():
             urllib.request.urlretrieve(URL, z)
         with zipfile.ZipFile(z) as f:
-            for name in ["transaction_data.csv", "product.csv"]:
+            for name in needed:
                 f.extract(name, RAW)
 
 

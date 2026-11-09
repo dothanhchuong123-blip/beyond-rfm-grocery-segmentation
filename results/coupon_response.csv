@@ -1,0 +1,24 @@
+space,group,metric,denominator,successes,n,rate,ci_low,ci_high,p_value
+RFM,Higher,targeted_share,all clustered households,1333.0,1616.0,0.8248762376237624,0.8055809425360764,0.8426306427663254,
+RFM,Higher,responder_rate_among_targeted,targeted households,342.0,1333.0,0.2565641410352588,0.23384178756664675,0.28068553675564034,
+RFM,Higher,pair_response_rate,targeted household-campaign pairs,574.0,3952.0,0.14524291497975708,0.13460213388269404,0.15657269474833868,
+RFM,Higher,any_holdout_redemption_all,all clustered households,342.0,1616.0,0.21163366336633663,0.19241424026430154,0.2322208097339476,
+RFM,Lower,targeted_share,all clustered households,63.0,882.0,0.07142857142857142,0.05622602025479405,0.09034812975763488,
+RFM,Lower,responder_rate_among_targeted,targeted households,3.0,63.0,0.047619047619047616,0.01632616874092256,0.1309096792792932,
+RFM,Lower,pair_response_rate,targeted household-campaign pairs,3.0,74.0,0.04054054054054054,0.013882431113957983,0.11254709657903775,
+RFM,Lower,any_holdout_redemption_all,all clustered households,3.0,882.0,0.003401360544217687,0.0011574292627932652,0.00995230011668791,
+Product,Higher,targeted_share,all clustered households,1308.0,1655.0,0.7903323262839879,0.77005927487386,0.8092607046545559,
+Product,Higher,responder_rate_among_targeted,targeted households,337.0,1308.0,0.2576452599388379,0.23467834142347035,0.28203155083694137,
+Product,Higher,pair_response_rate,targeted household-campaign pairs,568.0,3907.0,0.14538008702329153,0.13467573203690103,0.15678109915035698,
+Product,Higher,any_holdout_redemption_all,all clustered households,337.0,1655.0,0.20362537764350452,0.1849210496683618,0.22370236352895764,
+Product,Lower,targeted_share,all clustered households,88.0,843.0,0.10438908659549229,0.08551192585114865,0.1268554033522092,
+Product,Lower,responder_rate_among_targeted,targeted households,8.0,88.0,0.09090909090909091,0.046786421235876625,0.16925390655269706,
+Product,Lower,pair_response_rate,targeted household-campaign pairs,9.0,119.0,0.07563025210084033,0.04029724146456596,0.13750477326404298,
+Product,Lower,any_holdout_redemption_all,all clustered households,8.0,843.0,0.009489916963226572,0.00481637559474001,0.018613581303576224,
+RFM,Higher minus Lower,targeted_share,difference,,,0.753447666195191,0.727157432401524,0.7778751182213831,1.1122982999427903e-287
+RFM,Higher minus Lower,responder_rate_among_targeted,difference,,,0.2089450934162112,0.149157839434761,0.2618561006314612,0.00017191416106654387
+RFM,Higher minus Lower,any_holdout_redemption_all,difference,,,0.20823230282211894,0.1887965713678412,0.22808388777512617,4.059456806404725e-47
+Product,Higher minus Lower,targeted_share,difference,,,0.6859432396884956,0.6565449698679441,0.7142337226541764,8.406605089276959e-234
+Product,Higher minus Lower,responder_rate_among_targeted,difference,,,0.166736169029747,0.09566376010409822,0.22530440568026433,0.00044811058916762044
+Product,Higher minus Lower,any_holdout_redemption_all,difference,,,0.19413546068027795,0.1736489612602548,0.2142710913088146,2.381342461398325e-40
+Product minus RFM,Higher-Lower gap,responder_rate_among_targeted,difference of gaps,,,-0.0422089243864642,-0.11822279894770922,0.03265504366446286,

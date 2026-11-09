@@ -15,15 +15,15 @@ Calibration household cohort & 2,498\\
 Later-only households outside cohort & 2\\
 Cohort households with no later purchase & 59\\\bottomrule
 \end{tabular}\end{table}
-The transaction table has 12 columns and the product table seven. Both required tables contain zero missing cells under the CSV parser, no exact duplicate transaction rows and no duplicate product keys. All purchased product identifiers match the product table; the join preserves the transaction row count. Basket identifiers have neither conflicting household assignments nor conflicting day assignments. The eight-file schema inventory also verifies UTF-8-compatible decoding of the complete byte streams and records column names and sampled types. Only transactions and products enter clustering; demographics and campaign tables are intentionally not joined. These checks support the household aggregation and rule out join multiplication in this run. They do not prove that source measurement is error-free.
+The transaction table has 12 columns and the product table seven. Both required tables contain zero missing cells under the CSV parser, no exact duplicate transaction rows and no duplicate product keys. All purchased product identifiers match the product table; the join preserves the transaction row count. Basket identifiers have neither conflicting household assignments nor conflicting day assignments. The eight-file schema inventory also verifies UTF-8-compatible decoding of the complete byte streams and records column names and sampled types. Only transactions and products enter clustering; demographics and campaign tables are intentionally not joined. These checks support the household aggregation and rule out join multiplication.
 
-There are 14,466 nonpositive-quantity lines and 18,850 nonpositive-sales lines; their union is 18,917, or 0.73\% of raw lines. These counts overlap and must not be added. Negative retail discounts occur on 1,303,026 lines and are retained and used only to construct the negative-discount indicator. The calibration covers days 1--500; the later period covers days 501--711. Different window lengths mean calibration and later totals should not be compared as direct growth rates.
+There are 14,466 nonpositive-quantity lines and 18,850 nonpositive-sales lines; their union is 18,917, or 0.73\% of raw lines. These counts overlap. Negative retail discounts occur on 1,303,026 lines and are retained and used only to construct the negative-discount indicator. The calibration covers days 1--500; the later period covers days 501--711. Because the windows differ in length, calibration and later totals are not comparable as growth rates.
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=\textwidth]{../figures/01_eda.png}
 \caption{Recorded positive-purchase sales and household activity distributions. The dashed temporal boundary marks the calibration/later split on the exact day scale. Household activity is displayed after a log transform because raw purchase intensity is strongly heterogeneous.}\label{fig:eda}
 \end{figure}
-The EDA motivates a baseline focused on shopping intensity and a transformed distance space. Monetary value and frequency are related because households with more shopping occasions have more opportunities to spend. Basket-level and assortment measures can clarify that relationship, but may also repeat the same underlying intensity signal. Department shares provide the most direct attempt to add preference information. The selected eight departments are Grocery, Drug GM, Produce, Meat, Kiosk-Gas, Meat-Packaged, Deli and Pastry.
+The EDA motivates a baseline focused on shopping intensity in a transformed distance space. Monetary value and frequency are related because more shopping occasions give more opportunities to spend. Basket-level and assortment measures may repeat the same intensity signal, whereas department shares add preference information directly. The selected eight departments are Grocery, Drug GM, Produce, Meat, Kiosk-Gas, Meat-Packaged, Deli and Pastry.
 
 \section{Model comparisons}
 \subsection{Within-space selection}
@@ -39,11 +39,11 @@ Product &17&2&843&0.206&1.984\\\bottomrule
 \end{tabular}\end{table}
 \begin{figure}[htbp]\centering
 \includegraphics[width=\textwidth]{../figures/02_model_selection.png}
-\caption{Candidate K-means and Ward silhouette curves. Compare cluster counts and algorithms within a panel; each panel defines its own distance space. Adding dimensions can alter apparent compactness even without a deterioration in practical usefulness.}\label{fig:selection}
+\caption{Candidate K-means and Ward silhouette curves. Compare cluster counts and algorithms within a panel; each panel defines its own distance space.}\label{fig:selection}
 \end{figure}
-Two groups offer the strongest within-space K-means separation among eligible candidates. The shapes of the curves and the elbow diagnostic are supporting evidence, not proof that grocery households intrinsically fall into two discrete types. A small number of clusters can summarize a continuous intensity gradient.
+Two groups offer the strongest within-space K-means separation among eligible candidates. Two clusters summarize a continuous intensity gradient rather than two intrinsic household types.
 
-The tested DBSCAN grid does not produce a compelling full-cohort alternative. In RFM at the 70th-percentile neighborhood setting, two groups remain after 18.2\% of households are marked noise, with silhouette 0.162 on retained rows. At tighter settings it yields six groups and negative silhouette. In Behavior, the only two-group setting has a group of just eight households and 14.2\% noise. All tested Product settings produce one non-noise cluster, making multi-cluster silhouette undefined. These outcomes are reported rather than interpreted as zero scores. They apply to the tested radii and do not exclude better density-based specifications.
+The tested DBSCAN grid does not produce a compelling full-cohort alternative. In RFM at the 70th-percentile neighborhood setting, two groups remain after 18.2\% of households are marked noise, with silhouette 0.162 on retained rows. At tighter settings it yields six groups and negative silhouette. In Behavior, the only two-group setting has a group of just eight households and 14.2\% noise. All tested Product settings produce one non-noise cluster, making multi-cluster silhouette undefined.
 
 \subsection{Stability and partition agreement}
 \begin{table}[htbp]\centering\small
@@ -57,11 +57,11 @@ Product &0.964&0.860--0.990&0.314&$-0.024$--0.584\\\bottomrule
 \end{tabular}\end{table}
 \begin{figure}[htbp]\centering
 \includegraphics[width=.94\textwidth]{../figures/03_stability.png}
-\caption{Conditional sampling stability on shared households. The K-means partitions are substantially more reproducible than Ward under this perturbation. Fixed preprocessing means these distributions do not measure uncertainty in the entire feature-construction pipeline.}\label{fig:stability}
+\caption{Conditional sampling stability on shared households. The K-means partitions are substantially more reproducible than Ward under this perturbation.}\label{fig:stability}
 \end{figure}
-Mean one-initialization ARI against the selected K-means fit is 0.994 for RFM, 0.982 for Behavior and 0.997 for Product. The principal findings are therefore not a consequence of one anomalous random start. K-means sampling stability remains high in all three spaces; Product's minimum subsample agreement is lower, so the additional representation does not improve robustness under this test. Ward is substantially more sensitive to household sampling, especially in Product space. Given the tested design, K-means is the more reproducible summary.
+Mean one-initialization ARI against the selected K-means fit is 0.994 for RFM, 0.982 for Behavior and 0.997 for Product. The main findings do not depend on one random start. K-means sampling stability remains high in all three spaces; Product's minimum subsample agreement is lower, so the additional representation does not improve robustness. Ward is substantially more sensitive to household sampling, especially in Product space. K-means is the more reproducible method.
 
-Across selected partitions, RFM--Behavior ARI is 0.614, RFM--Product is 0.589 and Behavior--Product is 0.850. Enrichment changes some assignments, and Product is much closer to Behavior than RFM. Assignment change is neither intrinsically good nor bad: it must be linked to new useful profile distinctions. Numeric cluster identifiers are space-specific; Product cluster 0 corresponds to the higher-activity group, whereas the higher-activity RFM and Behavior group is numbered 1.
+Across selected partitions, RFM--Behavior ARI is 0.614, RFM--Product is 0.589 and Behavior--Product is 0.850. Enrichment changes some assignments, and Product is much closer to Behavior than RFM. Assignment change matters only if it reveals useful new profile distinctions. Numeric cluster identifiers are space-specific; Product cluster 0 corresponds to the higher-activity group, whereas the higher-activity RFM and Behavior group is numbered 1.
 
 \section{Profiles and later-period descriptive checks}
 \begin{table}[htbp]\centering\small
@@ -75,13 +75,13 @@ Behavior &H&1,689&8.4&99.4&2,967.7\\
 Product &L&843&65.8&25.5&448.4\\
 Product &H&1,655&8.7&100.1&3,004.7\\\bottomrule
 \end{tabular}\end{table}
-All representations chiefly separate higher-intensity, recently active households from less-frequent and less-recent households. In Product, higher-activity households average 549.7 distinct products and 12.8 departments, versus 114.1 products and 7.6 departments in the lower-activity group. They also have larger mean baskets (35.6 versus 23.0 sales units). Discount-line proportions are close (50.4\% versus 48.9\%), so these two groups should not be marketed as sharply distinct discount-response types.
+All representations chiefly separate higher-intensity, recently active households from less-frequent and less-recent households. In Product, higher-activity households average 549.7 distinct products and 12.8 departments, versus 114.1 products and 7.6 departments in the lower-activity group. They also have larger mean baskets (35.6 versus 23.0 sales units). Discount-line proportions are close (50.4\% versus 48.9\%), so the two groups are not distinct discount-response types.
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=\textwidth]{../figures/04_category_profiles.png}
 \caption{Product-aware department profiles: mean of household spend shares, rather than a share of pooled group revenue. Grocery dominates both groups; the modest contrasts qualify how much preference-specific structure the two-group solution reveals.}\label{fig:composition}
 \end{figure}
-Both Product groups allocate about half of spending to Grocery (51.4\% in the higher-activity group and 52.2\% in the lower). The higher-activity group has a greater Kiosk-Gas share (6.0\% versus 3.7\%) and Meat share (7.5\% versus 6.6\%), while the lower-activity group has more Drug GM (14.5\% versus 12.3\%) and Pastry (2.4\% versus 1.6\%). These are useful descriptions but modest absolute differences. They do not establish distinct dietary identities, price sensitivity, or promotion responsiveness.
+Both Product groups allocate about half of spending to Grocery (51.4\% in the higher-activity group and 52.2\% in the lower). The higher-activity group has a greater Kiosk-Gas share (6.0\% versus 3.7\%) and Meat share (7.5\% versus 6.6\%), while the lower-activity group has more Drug GM (14.5\% versus 12.3\%) and Pastry (2.4\% versus 1.6\%). These differences are useful descriptions but small in absolute terms.
 
 \begin{table}[htbp]\centering\small
 \caption{Later-period positive-purchase sales by frozen group. Brackets are 95\% percentile bootstrap intervals for group means, conditional on the fixed clustering; activity is the proportion with any observed later purchase.}\label{tab:later}
@@ -98,8 +98,8 @@ Product &H&1,471.9 [1,413.7, 1,535.6]&99.5\%&\\\bottomrule
 \includegraphics[width=\textwidth]{../figures/05_holdout.png}
 \caption{Later mean spending and bootstrap uncertainty. Calibration-defined groups remain descriptively different, with much larger within-cohort purchase intensity in the higher-activity group. Labels are independent in each panel.}\label{fig:holdout}
 \end{figure}
-The frozen groups retain a large later-period spending difference. Nevertheless, Product explains 20.2\% of later spend variance, compared with 20.4\% for RFM and 19.7\% for Behavior. The absolute Product--RFM difference is approximately $-0.002$ in $\eta^2$. There is no descriptive improvement on this criterion. Most variance remains within groups; a segmentation is a coarse summary, not a precise individual-level spending forecast.
+The frozen groups retain a large later-period spending difference. Nevertheless, Product explains 20.2\% of later spend variance, compared with 20.4\% for RFM and 19.7\% for Behavior. The absolute Product--RFM difference is approximately $-0.002$ in $\eta^2$. Product therefore brings no improvement on this criterion, and most variance remains within groups.
 
-The intervals reflect group-mean uncertainty, not the uncertainty of a difference between representations. The models use the same households, so their metrics are statistically dependent. A paired household bootstrap of Product-minus-RFM explained variance gives $-0.00190$, with a conditional 95\% interval $[-0.01426,0.00860]$. It resamples the same household rows for both frozen assignments, preserving their dependence. This provides no clear evidence of improvement. No test of business lift or formal equivalence is claimed. Holdout results were not used in the within-space selection rule.
+The intervals reflect group-mean uncertainty, not the uncertainty of a difference between representations. Because the models use the same households, a paired household bootstrap of Product-minus-RFM explained variance gives $-0.00190$, with a conditional 95\% interval $[-0.01426,0.00860]$. This provides no clear evidence of improvement. Holdout results were not used in model selection.
 
-The notebook also includes a two-dimensional PCA projection. It is an illustrative view, not independent evidence of cluster separation.
+

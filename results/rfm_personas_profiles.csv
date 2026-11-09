@@ -1,0 +1,5 @@
+persona,households,share_pct,recency_mean,recency_median,frequency_mean,frequency_median,monetary_mean,monetary_median,future_spend_mean,future_spend_median,future_baskets_mean,future_active_rate,holdout_spend_share_pct,silhouette_k4,silhouette_k2,ari_mean,ari_min,ari_max
+Loyal high-value,679,27.1817,3.4271,2.0,165.9161,134.0,4840.6605,4222.83,2256.3034,1950.17,72.542,0.9971,56.6051,0.2926,0.4507,0.9271,0.3918,0.996
+Steady regulars,924,36.9896,7.6591,5.0,59.8019,57.0,1721.6249,1589.865,931.5567,767.635,30.7186,0.9968,31.8031,0.2926,0.4507,0.9271,0.3918,0.996
+Occasional shoppers,638,25.5404,30.1254,18.0,26.5235,23.0,663.0469,558.13,415.7192,283.2,14.2571,0.9812,9.7996,0.2926,0.4507,0.9271,0.3918,0.996
+Lapsed / at-risk,257,10.2882,160.5525,110.0,8.8833,7.0,195.1875,163.57,188.7325,73.47,6.5292,0.8366,1.7921,0.2926,0.4507,0.9271,0.3918,0.996

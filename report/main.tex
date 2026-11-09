@@ -37,7 +37,8 @@ Course:&Data Structures and Algorithms with Python\\
 Team / authors:&Đỗ Thành Chương - 11251670\\
 &Phạm Hải Đăng - 11251792\\
 &Nguyễn Ngọc Long - 11254986\\
-Instructor:&Trần Đức Minh
+Instructor:&Trần Đức Minh\\
+Submission date:&10 November 2026
 \end{tabular}
 \vspace{10mm}
 \end{titlepage}
@@ -45,7 +46,7 @@ Instructor:&Trần Đức Minh
 \pagenumbering{roman}
 \input{overview}
 \begin{abstract}
-This study evaluates whether household shopping behavior and department composition improve grocery retail segmentation beyond a recency, frequency and monetary-value (RFM) baseline. Audited transaction and product records yield 2,498 calibration households. K-means, Ward hierarchical clustering and DBSCAN are compared using within-space geometry, cluster size, sampling stability, fixed-count ablation, common-space diagnostics and a later-period descriptive holdout. All representative K-means fits select two broad activity groups. K-means is more stable than Ward; RFM's mean subsample adjusted Rand index is 0.980, versus 0.964 for the product-aware representation. Later-spend explained variance is 0.204 for RFM and 0.202 for Product, and the fixed three-cluster comparison likewise does not favor enrichment. Product features supply department descriptions, but membership is sensitive to their weight. After label alignment, 287 households change groups between RFM and Product. An exploratory later-category extension finds a small, uncertain Product advantage in department-share separation (0.386\% versus 0.299\% of variation explained). RFM remains the preferred default under the tested design. The results describe observational purchase patterns and do not establish causal marketing lift.
+RFM K-means with $k=2$ is the best-performing segmentation of 2,498 grocery households, and adding basket behavior and department shares does not improve on it. All representative K-means fits select two broad activity groups, and K-means is more stable than Ward hierarchical clustering. RFM's mean subsample adjusted Rand index (ARI) is 0.980, versus 0.964 for the product-aware representation. Later-spend explained variance is 0.204 for RFM and 0.202 for Product, and the fixed three-cluster comparison also favors RFM. Product features supply department descriptions, but membership is sensitive to their weight, and 287 households change groups between RFM and Product after label alignment. An exploratory later-category extension finds a small, uncertain Product advantage in department-share separation (0.386\% versus 0.299\% of variation explained). The study compares K-means, Ward and DBSCAN on audited transaction and product records, using within-space geometry, cluster size, sampling stability, fixed-count ablation, common-space diagnostics and a later-period holdout. RFM is the recommended default for broad activity monitoring.
 \end{abstract}
 \tableofcontents
 \clearpage
@@ -54,6 +55,9 @@ This study evaluates whether household shopping behavior and department composit
 \input{features}
 \input{results}
 \input{insights}
+\section{Business personas and external validation}\label{sec:extensions}
+\input{personas}
+\input{external_validation}
 \input{discussion}
 \bibliographystyle{plain}
 \bibliography{references}

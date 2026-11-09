@@ -1,0 +1,2499 @@
+household_key,persona
+1,Steady regulars
+2,Steady regulars
+3,Steady regulars
+4,Steady regulars
+5,Occasional shoppers
+6,Loyal high-value
+7,Occasional shoppers
+8,Steady regulars
+9,Lapsed / at-risk
+10,Occasional shoppers
+11,Lapsed / at-risk
+12,Lapsed / at-risk
+13,Loyal high-value
+14,Loyal high-value
+15,Occasional shoppers
+16,Occasional shoppers
+17,Steady regulars
+18,Loyal high-value
+19,Loyal high-value
+20,Loyal high-value
+21,Occasional shoppers
+22,Loyal high-value
+23,Steady regulars
+24,Occasional shoppers
+25,Steady regulars
+26,Steady regulars
+27,Loyal high-value
+28,Steady regulars
+29,Steady regulars
+30,Occasional shoppers
+31,Steady regulars
+32,Steady regulars
+33,Occasional shoppers
+34,Lapsed / at-risk
+35,Steady regulars
+36,Loyal high-value
+37,Steady regulars
+38,Occasional shoppers
+39,Steady regulars
+40,Loyal high-value
+41,Steady regulars
+42,Steady regulars
+43,Steady regulars
+44,Occasional shoppers
+45,Steady regulars
+46,Steady regulars
+47,Steady regulars
+48,Steady regulars
+49,Loyal high-value
+50,Lapsed / at-risk
+51,Steady regulars
+52,Loyal high-value
+53,Steady regulars
+54,Occasional shoppers
+55,Steady regulars
+56,Loyal high-value
+57,Loyal high-value
+58,Loyal high-value
+59,Occasional shoppers
+60,Lapsed / at-risk
+61,Lapsed / at-risk
+62,Occasional shoppers
+63,Occasional shoppers
+64,Loyal high-value
+65,Steady regulars
+66,Occasional shoppers
+67,Loyal high-value
+68,Loyal high-value
+69,Loyal high-value
+70,Lapsed / at-risk
+71,Steady regulars
+72,Loyal high-value
+73,Loyal high-value
+74,Steady regulars
+75,Steady regulars
+76,Occasional shoppers
+77,Steady regulars
+78,Steady regulars
+79,Steady regulars
+80,Steady regulars
+81,Loyal high-value
+82,Steady regulars
+83,Steady regulars
+84,Steady regulars
+85,Loyal high-value
+86,Steady regulars
+87,Occasional shoppers
+88,Loyal high-value
+89,Lapsed / at-risk
+90,Occasional shoppers
+91,Steady regulars
+92,Steady regulars
+93,Loyal high-value
+94,Occasional shoppers
+95,Loyal high-value
+96,Occasional shoppers
+97,Loyal high-value
+98,Steady regulars
+99,Loyal high-value
+100,Occasional shoppers
+101,Loyal high-value
+102,Lapsed / at-risk
+103,Occasional shoppers
+104,Steady regulars
+105,Loyal high-value
+106,Occasional shoppers
+107,Occasional shoppers
+108,Steady regulars
+109,Steady regulars
+110,Loyal high-value
+111,Occasional shoppers
+112,Steady regulars
+113,Loyal high-value
+114,Steady regulars
+115,Loyal high-value
+116,Steady regulars
+117,Steady regulars
+118,Steady regulars
+119,Occasional shoppers
+120,Occasional shoppers
+121,Steady regulars
+122,Steady regulars
+123,Loyal high-value
+124,Occasional shoppers
+125,Loyal high-value
+126,Occasional shoppers
+127,Loyal high-value
+128,Lapsed / at-risk
+129,Steady regulars
+130,Lapsed / at-risk
+131,Loyal high-value
+132,Steady regulars
+133,Steady regulars
+134,Loyal high-value
+135,Occasional shoppers
+136,Steady regulars
+137,Steady regulars
+138,Steady regulars
+139,Steady regulars
+140,Steady regulars
+141,Steady regulars
+142,Loyal high-value
+143,Loyal high-value
+144,Steady regulars
+145,Occasional shoppers
+146,Steady regulars
+147,Steady regulars
+148,Occasional shoppers
+149,Loyal high-value
+150,Lapsed / at-risk
+151,Occasional shoppers
+152,Steady regulars
+153,Steady regulars
+154,Occasional shoppers
+155,Steady regulars
+156,Loyal high-value
+157,Loyal high-value
+158,Loyal high-value
+159,Steady regulars
+160,Occasional shoppers
+161,Loyal high-value
+162,Steady regulars
+163,Lapsed / at-risk
+164,Steady regulars
+165,Loyal high-value
+166,Steady regulars
+167,Occasional shoppers
+168,Occasional shoppers
+169,Occasional shoppers
+170,Occasional shoppers
+171,Lapsed / at-risk
+172,Steady regulars
+173,Lapsed / at-risk
+174,Occasional shoppers
+175,Steady regulars
+176,Occasional shoppers
+177,Occasional shoppers
+178,Occasional shoppers
+179,Occasional shoppers
+180,Steady regulars
+181,Occasional shoppers
+182,Occasional shoppers
+183,Steady regulars
+184,Loyal high-value
+185,Steady regulars
+186,Lapsed / at-risk
+187,Occasional shoppers
+188,Occasional shoppers
+189,Occasional shoppers
+190,Steady regulars
+191,Occasional shoppers
+192,Steady regulars
+193,Loyal high-value
+194,Steady regulars
+195,Steady regulars
+196,Loyal high-value
+197,Steady regulars
+198,Loyal high-value
+199,Occasional shoppers
+200,Occasional shoppers
+201,Occasional shoppers
+202,Occasional shoppers
+203,Occasional shoppers
+204,Occasional shoppers
+205,Steady regulars
+206,Lapsed / at-risk
+207,Occasional shoppers
+208,Loyal high-value
+209,Loyal high-value
+210,Steady regulars
+211,Steady regulars
+212,Loyal high-value
+213,Lapsed / at-risk
+214,Steady regulars
+215,Steady regulars
+216,Steady regulars
+217,Steady regulars
+218,Loyal high-value
+219,Loyal high-value
+220,Steady regulars
+221,Steady regulars
+222,Loyal high-value
+223,Steady regulars
+224,Steady regulars
+225,Steady regulars
+226,Occasional shoppers
+227,Steady regulars
+228,Steady regulars
+229,Occasional shoppers
+230,Loyal high-value
+231,Lapsed / at-risk
+232,Loyal high-value
+233,Lapsed / at-risk
+234,Occasional shoppers
+235,Loyal high-value
+236,Steady regulars
+237,Lapsed / at-risk
+238,Lapsed / at-risk
+239,Loyal high-value
+240,Lapsed / at-risk
+241,Lapsed / at-risk
+242,Steady regulars
+243,Loyal high-value
+244,Steady regulars
+245,Steady regulars
+246,Occasional shoppers
+247,Occasional shoppers
+248,Steady regulars
+249,Steady regulars
+250,Steady regulars
+251,Steady regulars
+252,Lapsed / at-risk
+253,Loyal high-value
+254,Occasional shoppers
+255,Occasional shoppers
+256,Loyal high-value
+257,Steady regulars
+258,Loyal high-value
+259,Steady regulars
+260,Occasional shoppers
+261,Steady regulars
+262,Loyal high-value
+263,Loyal high-value
+264,Steady regulars
+265,Steady regulars
+266,Steady regulars
+267,Occasional shoppers
+268,Occasional shoppers
+269,Occasional shoppers
+270,Occasional shoppers
+271,Occasional shoppers
+272,Lapsed / at-risk
+273,Steady regulars
+274,Lapsed / at-risk
+275,Loyal high-value
+276,Loyal high-value
+277,Lapsed / at-risk
+278,Steady regulars
+279,Steady regulars
+280,Steady regulars
+281,Steady regulars
+282,Steady regulars
+283,Steady regulars
+284,Occasional shoppers
+285,Loyal high-value
+286,Occasional shoppers
+287,Loyal high-value
+288,Occasional shoppers
+289,Loyal high-value
+290,Loyal high-value
+291,Steady regulars
+292,Occasional shoppers
+293,Loyal high-value
+294,Loyal high-value
+295,Lapsed / at-risk
+296,Lapsed / at-risk
+297,Steady regulars
+298,Lapsed / at-risk
+299,Lapsed / at-risk
+300,Loyal high-value
+301,Steady regulars
+302,Steady regulars
+303,Loyal high-value
+304,Loyal high-value
+305,Loyal high-value
+306,Loyal high-value
+307,Loyal high-value
+308,Steady regulars
+309,Occasional shoppers
+310,Lapsed / at-risk
+311,Occasional shoppers
+312,Steady regulars
+313,Lapsed / at-risk
+314,Steady regulars
+315,Occasional shoppers
+316,Occasional shoppers
+317,Steady regulars
+318,Steady regulars
+319,Loyal high-value
+320,Occasional shoppers
+321,Loyal high-value
+322,Steady regulars
+323,Lapsed / at-risk
+324,Loyal high-value
+325,Steady regulars
+326,Lapsed / at-risk
+327,Lapsed / at-risk
+328,Loyal high-value
+329,Steady regulars
+330,Loyal high-value
+331,Occasional shoppers
+332,Steady regulars
+333,Occasional shoppers
+334,Loyal high-value
+335,Steady regulars
+336,Steady regulars
+337,Steady regulars
+338,Steady regulars
+339,Steady regulars
+340,Occasional shoppers
+341,Occasional shoppers
+342,Steady regulars
+343,Occasional shoppers
+344,Occasional shoppers
+345,Loyal high-value
+346,Loyal high-value
+347,Occasional shoppers
+348,Steady regulars
+349,Lapsed / at-risk
+350,Steady regulars
+351,Loyal high-value
+352,Lapsed / at-risk
+353,Steady regulars
+354,Loyal high-value
+355,Lapsed / at-risk
+356,Loyal high-value
+357,Occasional shoppers
+358,Loyal high-value
+359,Lapsed / at-risk
+360,Occasional shoppers
+361,Loyal high-value
+362,Steady regulars
+363,Lapsed / at-risk
+364,Steady regulars
+365,Loyal high-value
+366,Steady regulars
+367,Loyal high-value
+368,Occasional shoppers
+369,Occasional shoppers
+370,Loyal high-value
+371,Loyal high-value
+372,Occasional shoppers
+373,Lapsed / at-risk
+374,Loyal high-value
+375,Occasional shoppers
+376,Loyal high-value
+377,Steady regulars
+378,Loyal high-value
+379,Lapsed / at-risk
+380,Loyal high-value
+381,Steady regulars
+382,Occasional shoppers
+383,Loyal high-value
+384,Steady regulars
+385,Occasional shoppers
+386,Loyal high-value
+387,Loyal high-value
+388,Occasional shoppers
+389,Loyal high-value
+390,Steady regulars
+391,Steady regulars
+392,Loyal high-value
+393,Loyal high-value
+394,Steady regulars
+395,Steady regulars
+396,Steady regulars
+397,Loyal high-value
+398,Steady regulars
+399,Occasional shoppers
+400,Loyal high-value
+401,Steady regulars
+402,Steady regulars
+403,Occasional shoppers
+404,Loyal high-value
+405,Steady regulars
+406,Occasional shoppers
+407,Occasional shoppers
+408,Steady regulars
+409,Steady regulars
+410,Steady regulars
+411,Loyal high-value
+412,Steady regulars
+413,Loyal high-value
+414,Steady regulars
+415,Lapsed / at-risk
+416,Occasional shoppers
+417,Steady regulars
+418,Loyal high-value
+419,Steady regulars
+420,Steady regulars
+421,Loyal high-value
+422,Occasional shoppers
+423,Lapsed / at-risk
+424,Occasional shoppers
+425,Loyal high-value
+426,Loyal high-value
+427,Occasional shoppers
+428,Steady regulars
+429,Steady regulars
+430,Occasional shoppers
+431,Occasional shoppers
+432,Loyal high-value
+433,Steady regulars
+434,Loyal high-value
+435,Steady regulars
+436,Steady regulars
+437,Steady regulars
+438,Steady regulars
+439,Occasional shoppers
+440,Lapsed / at-risk
+441,Steady regulars
+442,Steady regulars
+443,Steady regulars
+444,Steady regulars
+445,Loyal high-value
+446,Lapsed / at-risk
+447,Occasional shoppers
+448,Occasional shoppers
+449,Occasional shoppers
+450,Steady regulars
+451,Steady regulars
+452,Occasional shoppers
+453,Occasional shoppers
+454,Loyal high-value
+455,Occasional shoppers
+456,Loyal high-value
+457,Occasional shoppers
+458,Steady regulars
+459,Steady regulars
+460,Steady regulars
+461,Occasional shoppers
+462,Steady regulars
+463,Loyal high-value
+464,Loyal high-value
+465,Occasional shoppers
+466,Lapsed / at-risk
+467,Steady regulars
+468,Loyal high-value
+469,Loyal high-value
+470,Loyal high-value
+471,Occasional shoppers
+472,Loyal high-value
+473,Steady regulars
+474,Occasional shoppers
+475,Occasional shoppers
+476,Occasional shoppers
+477,Steady regulars
+478,Lapsed / at-risk
+479,Loyal high-value
+480,Steady regulars
+481,Steady regulars
+482,Occasional shoppers
+483,Steady regulars
+484,Steady regulars
+485,Loyal high-value
+486,Occasional shoppers
+487,Lapsed / at-risk
+488,Occasional shoppers
+489,Loyal high-value
+490,Steady regulars
+491,Steady regulars
+492,Loyal high-value
+493,Loyal high-value
+494,Lapsed / at-risk
+495,Steady regulars
+496,Lapsed / at-risk
+497,Steady regulars
+498,Occasional shoppers
+499,Occasional shoppers
+500,Lapsed / at-risk
+501,Occasional shoppers
+502,Steady regulars
+503,Loyal high-value
+504,Lapsed / at-risk
+505,Lapsed / at-risk
+506,Occasional shoppers
+507,Steady regulars
+508,Steady regulars
+509,Occasional shoppers
+510,Loyal high-value
+511,Loyal high-value
+512,Lapsed / at-risk
+513,Loyal high-value
+514,Steady regulars
+515,Steady regulars
+516,Lapsed / at-risk
+517,Steady regulars
+518,Loyal high-value
+519,Occasional shoppers
+520,Steady regulars
+521,Occasional shoppers
+522,Lapsed / at-risk
+523,Loyal high-value
+524,Steady regulars
+525,Occasional shoppers
+526,Loyal high-value
+527,Loyal high-value
+528,Lapsed / at-risk
+529,Steady regulars
+530,Steady regulars
+531,Occasional shoppers
+532,Occasional shoppers
+533,Steady regulars
+534,Loyal high-value
+535,Occasional shoppers
+536,Steady regulars
+537,Occasional shoppers
+538,Steady regulars
+539,Occasional shoppers
+540,Steady regulars
+541,Steady regulars
+542,Steady regulars
+543,Steady regulars
+544,Steady regulars
+545,Steady regulars
+546,Loyal high-value
+547,Steady regulars
+548,Steady regulars
+549,Steady regulars
+550,Occasional shoppers
+551,Occasional shoppers
+552,Occasional shoppers
+553,Loyal high-value
+554,Lapsed / at-risk
+555,Occasional shoppers
+556,Occasional shoppers
+557,Occasional shoppers
+558,Steady regulars
+559,Occasional shoppers
+560,Loyal high-value
+561,Occasional shoppers
+562,Steady regulars
+563,Steady regulars
+564,Steady regulars
+565,Occasional shoppers
+566,Loyal high-value
+567,Loyal high-value
+568,Loyal high-value
+569,Loyal high-value
+570,Occasional shoppers
+571,Occasional shoppers
+572,Occasional shoppers
+573,Loyal high-value
+574,Steady regulars
+575,Loyal high-value
+576,Loyal high-value
+577,Occasional shoppers
+578,Steady regulars
+579,Occasional shoppers
+580,Steady regulars
+581,Loyal high-value
+582,Loyal high-value
+583,Steady regulars
+584,Steady regulars
+585,Occasional shoppers
+586,Loyal high-value
+587,Occasional shoppers
+588,Loyal high-value
+589,Occasional shoppers
+590,Steady regulars
+591,Loyal high-value
+592,Occasional shoppers
+593,Steady regulars
+594,Steady regulars
+595,Steady regulars
+596,Steady regulars
+597,Loyal high-value
+598,Loyal high-value
+599,Lapsed / at-risk
+600,Steady regulars
+601,Steady regulars
+602,Occasional shoppers
+603,Loyal high-value
+604,Steady regulars
+605,Loyal high-value
+606,Steady regulars
+607,Loyal high-value
+608,Loyal high-value
+609,Steady regulars
+610,Occasional shoppers
+611,Occasional shoppers
+612,Steady regulars
+613,Lapsed / at-risk
+614,Steady regulars
+615,Lapsed / at-risk
+616,Lapsed / at-risk
+617,Occasional shoppers
+618,Loyal high-value
+619,Lapsed / at-risk
+620,Lapsed / at-risk
+621,Steady regulars
+622,Steady regulars
+623,Steady regulars
+624,Loyal high-value
+625,Occasional shoppers
+626,Occasional shoppers
+627,Steady regulars
+628,Occasional shoppers
+629,Occasional shoppers
+630,Loyal high-value
+631,Loyal high-value
+632,Steady regulars
+633,Loyal high-value
+634,Occasional shoppers
+635,Occasional shoppers
+636,Loyal high-value
+637,Steady regulars
+638,Loyal high-value
+639,Steady regulars
+640,Steady regulars
+641,Loyal high-value
+642,Steady regulars
+643,Occasional shoppers
+644,Loyal high-value
+645,Occasional shoppers
+646,Steady regulars
+647,Steady regulars
+648,Steady regulars
+649,Steady regulars
+650,Steady regulars
+651,Lapsed / at-risk
+652,Occasional shoppers
+653,Loyal high-value
+654,Steady regulars
+655,Occasional shoppers
+656,Loyal high-value
+657,Occasional shoppers
+658,Occasional shoppers
+659,Occasional shoppers
+660,Loyal high-value
+661,Loyal high-value
+662,Steady regulars
+663,Steady regulars
+664,Occasional shoppers
+665,Occasional shoppers
+666,Steady regulars
+667,Occasional shoppers
+668,Steady regulars
+669,Loyal high-value
+670,Loyal high-value
+671,Loyal high-value
+672,Steady regulars
+673,Occasional shoppers
+674,Loyal high-value
+675,Loyal high-value
+676,Loyal high-value
+677,Occasional shoppers
+678,Occasional shoppers
+679,Loyal high-value
+680,Steady regulars
+681,Steady regulars
+682,Loyal high-value
+683,Occasional shoppers
+684,Steady regulars
+685,Loyal high-value
+686,Occasional shoppers
+687,Steady regulars
+688,Steady regulars
+689,Lapsed / at-risk
+690,Loyal high-value
+691,Steady regulars
+692,Loyal high-value
+693,Loyal high-value
+694,Loyal high-value
+695,Loyal high-value
+696,Loyal high-value
+697,Steady regulars
+698,Steady regulars
+699,Loyal high-value
+700,Occasional shoppers
+701,Occasional shoppers
+702,Loyal high-value
+703,Loyal high-value
+704,Lapsed / at-risk
+705,Steady regulars
+706,Steady regulars
+707,Loyal high-value
+708,Steady regulars
+709,Loyal high-value
+710,Loyal high-value
+711,Lapsed / at-risk
+712,Loyal high-value
+713,Occasional shoppers
+714,Loyal high-value
+715,Steady regulars
+716,Steady regulars
+717,Occasional shoppers
+718,Loyal high-value
+719,Occasional shoppers
+720,Steady regulars
+721,Occasional shoppers
+722,Loyal high-value
+723,Occasional shoppers
+724,Occasional shoppers
+725,Steady regulars
+726,Occasional shoppers
+727,Steady regulars
+728,Loyal high-value
+729,Occasional shoppers
+730,Steady regulars
+731,Loyal high-value
+732,Steady regulars
+733,Steady regulars
+734,Occasional shoppers
+735,Steady regulars
+736,Occasional shoppers
+737,Steady regulars
+738,Loyal high-value
+739,Lapsed / at-risk
+740,Loyal high-value
+741,Steady regulars
+742,Loyal high-value
+743,Steady regulars
+744,Loyal high-value
+745,Loyal high-value
+746,Occasional shoppers
+747,Steady regulars
+748,Steady regulars
+749,Steady regulars
+750,Lapsed / at-risk
+751,Lapsed / at-risk
+752,Loyal high-value
+753,Steady regulars
+754,Occasional shoppers
+755,Loyal high-value
+756,Occasional shoppers
+757,Steady regulars
+758,Occasional shoppers
+759,Occasional shoppers
+760,Steady regulars
+761,Loyal high-value
+762,Loyal high-value
+763,Steady regulars
+764,Steady regulars
+765,Occasional shoppers
+766,Loyal high-value
+767,Lapsed / at-risk
+768,Loyal high-value
+769,Steady regulars
+770,Occasional shoppers
+771,Loyal high-value
+772,Occasional shoppers
+773,Occasional shoppers
+774,Lapsed / at-risk
+775,Occasional shoppers
+776,Steady regulars
+777,Lapsed / at-risk
+778,Steady regulars
+779,Steady regulars
+780,Occasional shoppers
+781,Steady regulars
+782,Steady regulars
+783,Lapsed / at-risk
+784,Steady regulars
+785,Steady regulars
+786,Loyal high-value
+787,Loyal high-value
+788,Loyal high-value
+789,Lapsed / at-risk
+790,Steady regulars
+791,Lapsed / at-risk
+792,Occasional shoppers
+793,Steady regulars
+794,Occasional shoppers
+795,Steady regulars
+796,Occasional shoppers
+797,Steady regulars
+798,Occasional shoppers
+799,Steady regulars
+800,Loyal high-value
+801,Occasional shoppers
+802,Steady regulars
+803,Steady regulars
+804,Loyal high-value
+805,Loyal high-value
+806,Steady regulars
+807,Steady regulars
+808,Loyal high-value
+809,Occasional shoppers
+810,Occasional shoppers
+811,Lapsed / at-risk
+812,Steady regulars
+813,Occasional shoppers
+814,Lapsed / at-risk
+815,Steady regulars
+816,Steady regulars
+817,Loyal high-value
+818,Occasional shoppers
+819,Lapsed / at-risk
+820,Loyal high-value
+821,Occasional shoppers
+822,Steady regulars
+823,Steady regulars
+824,Occasional shoppers
+825,Loyal high-value
+826,Lapsed / at-risk
+827,Occasional shoppers
+828,Steady regulars
+829,Occasional shoppers
+830,Loyal high-value
+831,Loyal high-value
+832,Lapsed / at-risk
+833,Steady regulars
+834,Steady regulars
+835,Lapsed / at-risk
+836,Steady regulars
+837,Occasional shoppers
+838,Occasional shoppers
+839,Occasional shoppers
+840,Loyal high-value
+841,Occasional shoppers
+842,Loyal high-value
+843,Occasional shoppers
+844,Steady regulars
+845,Loyal high-value
+846,Occasional shoppers
+847,Occasional shoppers
+848,Occasional shoppers
+849,Steady regulars
+850,Steady regulars
+851,Lapsed / at-risk
+852,Steady regulars
+853,Loyal high-value
+854,Occasional shoppers
+855,Steady regulars
+856,Loyal high-value
+857,Steady regulars
+858,Occasional shoppers
+859,Loyal high-value
+860,Lapsed / at-risk
+861,Occasional shoppers
+862,Occasional shoppers
+863,Steady regulars
+864,Loyal high-value
+865,Lapsed / at-risk
+866,Loyal high-value
+867,Loyal high-value
+868,Loyal high-value
+869,Steady regulars
+870,Lapsed / at-risk
+871,Loyal high-value
+872,Lapsed / at-risk
+873,Steady regulars
+874,Lapsed / at-risk
+875,Steady regulars
+876,Loyal high-value
+877,Steady regulars
+878,Loyal high-value
+879,Steady regulars
+880,Occasional shoppers
+881,Loyal high-value
+882,Loyal high-value
+883,Loyal high-value
+884,Occasional shoppers
+885,Steady regulars
+886,Loyal high-value
+887,Occasional shoppers
+888,Loyal high-value
+889,Loyal high-value
+890,Occasional shoppers
+891,Steady regulars
+892,Occasional shoppers
+893,Steady regulars
+894,Occasional shoppers
+895,Loyal high-value
+896,Loyal high-value
+897,Steady regulars
+898,Loyal high-value
+899,Lapsed / at-risk
+900,Loyal high-value
+901,Steady regulars
+902,Lapsed / at-risk
+903,Steady regulars
+904,Occasional shoppers
+905,Occasional shoppers
+906,Loyal high-value
+907,Steady regulars
+908,Loyal high-value
+909,Loyal high-value
+910,Occasional shoppers
+911,Steady regulars
+912,Occasional shoppers
+913,Steady regulars
+914,Steady regulars
+915,Steady regulars
+916,Steady regulars
+917,Occasional shoppers
+918,Loyal high-value
+919,Steady regulars
+920,Loyal high-value
+921,Lapsed / at-risk
+922,Steady regulars
+923,Loyal high-value
+924,Steady regulars
+925,Occasional shoppers
+926,Loyal high-value
+927,Steady regulars
+928,Steady regulars
+929,Loyal high-value
+930,Occasional shoppers
+931,Steady regulars
+932,Loyal high-value
+933,Steady regulars
+934,Loyal high-value
+935,Steady regulars
+936,Loyal high-value
+937,Steady regulars
+938,Occasional shoppers
+939,Loyal high-value
+940,Occasional shoppers
+941,Steady regulars
+942,Loyal high-value
+943,Loyal high-value
+944,Steady regulars
+945,Occasional shoppers
+946,Steady regulars
+947,Loyal high-value
+948,Lapsed / at-risk
+949,Loyal high-value
+950,Steady regulars
+951,Lapsed / at-risk
+952,Steady regulars
+953,Steady regulars
+954,Steady regulars
+955,Loyal high-value
+956,Loyal high-value
+957,Loyal high-value
+958,Lapsed / at-risk
+959,Occasional shoppers
+960,Steady regulars
+961,Steady regulars
+962,Occasional shoppers
+963,Steady regulars
+964,Occasional shoppers
+965,Occasional shoppers
+966,Lapsed / at-risk
+967,Lapsed / at-risk
+968,Loyal high-value
+969,Lapsed / at-risk
+970,Occasional shoppers
+971,Steady regulars
+972,Loyal high-value
+973,Loyal high-value
+974,Steady regulars
+975,Loyal high-value
+976,Steady regulars
+977,Occasional shoppers
+978,Steady regulars
+979,Loyal high-value
+980,Occasional shoppers
+981,Steady regulars
+982,Loyal high-value
+983,Loyal high-value
+984,Steady regulars
+985,Steady regulars
+986,Steady regulars
+987,Steady regulars
+988,Loyal high-value
+989,Loyal high-value
+990,Lapsed / at-risk
+991,Occasional shoppers
+992,Occasional shoppers
+993,Steady regulars
+994,Occasional shoppers
+995,Occasional shoppers
+996,Steady regulars
+997,Steady regulars
+998,Loyal high-value
+999,Steady regulars
+1000,Loyal high-value
+1001,Occasional shoppers
+1002,Occasional shoppers
+1003,Steady regulars
+1004,Loyal high-value
+1005,Loyal high-value
+1006,Lapsed / at-risk
+1007,Steady regulars
+1008,Occasional shoppers
+1009,Occasional shoppers
+1010,Steady regulars
+1011,Steady regulars
+1012,Loyal high-value
+1013,Occasional shoppers
+1014,Loyal high-value
+1015,Loyal high-value
+1016,Steady regulars
+1017,Steady regulars
+1018,Loyal high-value
+1019,Steady regulars
+1020,Loyal high-value
+1021,Steady regulars
+1022,Occasional shoppers
+1023,Loyal high-value
+1024,Loyal high-value
+1025,Steady regulars
+1026,Occasional shoppers
+1027,Occasional shoppers
+1028,Lapsed / at-risk
+1029,Loyal high-value
+1030,Occasional shoppers
+1031,Loyal high-value
+1032,Steady regulars
+1033,Occasional shoppers
+1034,Occasional shoppers
+1035,Lapsed / at-risk
+1036,Occasional shoppers
+1037,Steady regulars
+1038,Loyal high-value
+1039,Steady regulars
+1040,Loyal high-value
+1041,Loyal high-value
+1042,Loyal high-value
+1043,Occasional shoppers
+1044,Occasional shoppers
+1045,Loyal high-value
+1046,Loyal high-value
+1047,Steady regulars
+1048,Steady regulars
+1049,Occasional shoppers
+1050,Loyal high-value
+1051,Steady regulars
+1052,Lapsed / at-risk
+1053,Steady regulars
+1054,Occasional shoppers
+1055,Steady regulars
+1056,Steady regulars
+1057,Loyal high-value
+1058,Loyal high-value
+1059,Lapsed / at-risk
+1060,Loyal high-value
+1061,Steady regulars
+1062,Loyal high-value
+1063,Steady regulars
+1064,Steady regulars
+1065,Steady regulars
+1066,Loyal high-value
+1067,Steady regulars
+1068,Occasional shoppers
+1069,Steady regulars
+1070,Loyal high-value
+1071,Occasional shoppers
+1072,Steady regulars
+1073,Steady regulars
+1074,Loyal high-value
+1075,Steady regulars
+1076,Steady regulars
+1077,Lapsed / at-risk
+1078,Loyal high-value
+1079,Steady regulars
+1080,Steady regulars
+1081,Loyal high-value
+1082,Steady regulars
+1083,Occasional shoppers
+1084,Loyal high-value
+1085,Steady regulars
+1086,Occasional shoppers
+1087,Loyal high-value
+1088,Steady regulars
+1089,Steady regulars
+1090,Lapsed / at-risk
+1091,Loyal high-value
+1092,Occasional shoppers
+1093,Occasional shoppers
+1094,Steady regulars
+1095,Occasional shoppers
+1096,Occasional shoppers
+1097,Loyal high-value
+1098,Loyal high-value
+1099,Occasional shoppers
+1100,Occasional shoppers
+1101,Lapsed / at-risk
+1102,Steady regulars
+1103,Loyal high-value
+1104,Steady regulars
+1105,Lapsed / at-risk
+1106,Occasional shoppers
+1107,Occasional shoppers
+1108,Lapsed / at-risk
+1109,Steady regulars
+1110,Loyal high-value
+1111,Loyal high-value
+1112,Occasional shoppers
+1113,Steady regulars
+1114,Occasional shoppers
+1115,Steady regulars
+1116,Steady regulars
+1117,Loyal high-value
+1118,Occasional shoppers
+1119,Occasional shoppers
+1120,Occasional shoppers
+1121,Steady regulars
+1122,Steady regulars
+1123,Steady regulars
+1124,Steady regulars
+1125,Steady regulars
+1126,Occasional shoppers
+1127,Occasional shoppers
+1128,Loyal high-value
+1129,Steady regulars
+1130,Loyal high-value
+1131,Occasional shoppers
+1132,Occasional shoppers
+1133,Steady regulars
+1134,Steady regulars
+1135,Occasional shoppers
+1136,Steady regulars
+1137,Steady regulars
+1138,Loyal high-value
+1139,Loyal high-value
+1140,Lapsed / at-risk
+1141,Steady regulars
+1142,Loyal high-value
+1143,Lapsed / at-risk
+1144,Occasional shoppers
+1145,Steady regulars
+1146,Loyal high-value
+1147,Steady regulars
+1148,Occasional shoppers
+1149,Lapsed / at-risk
+1150,Occasional shoppers
+1151,Steady regulars
+1152,Steady regulars
+1153,Steady regulars
+1154,Steady regulars
+1155,Occasional shoppers
+1156,Occasional shoppers
+1157,Steady regulars
+1158,Loyal high-value
+1159,Steady regulars
+1160,Steady regulars
+1161,Steady regulars
+1162,Occasional shoppers
+1163,Loyal high-value
+1164,Steady regulars
+1165,Steady regulars
+1166,Loyal high-value
+1167,Loyal high-value
+1168,Steady regulars
+1169,Loyal high-value
+1170,Lapsed / at-risk
+1171,Occasional shoppers
+1172,Loyal high-value
+1173,Occasional shoppers
+1174,Steady regulars
+1175,Loyal high-value
+1176,Lapsed / at-risk
+1177,Occasional shoppers
+1178,Loyal high-value
+1179,Loyal high-value
+1180,Loyal high-value
+1181,Steady regulars
+1182,Steady regulars
+1183,Lapsed / at-risk
+1184,Lapsed / at-risk
+1185,Occasional shoppers
+1186,Steady regulars
+1187,Steady regulars
+1188,Steady regulars
+1189,Occasional shoppers
+1190,Loyal high-value
+1191,Steady regulars
+1192,Steady regulars
+1193,Loyal high-value
+1194,Occasional shoppers
+1195,Occasional shoppers
+1196,Occasional shoppers
+1197,Loyal high-value
+1198,Steady regulars
+1199,Lapsed / at-risk
+1200,Steady regulars
+1201,Steady regulars
+1202,Occasional shoppers
+1203,Loyal high-value
+1204,Steady regulars
+1205,Loyal high-value
+1206,Loyal high-value
+1207,Steady regulars
+1208,Occasional shoppers
+1209,Lapsed / at-risk
+1210,Occasional shoppers
+1211,Loyal high-value
+1212,Lapsed / at-risk
+1213,Occasional shoppers
+1214,Lapsed / at-risk
+1215,Lapsed / at-risk
+1216,Loyal high-value
+1217,Steady regulars
+1218,Steady regulars
+1219,Steady regulars
+1220,Occasional shoppers
+1221,Lapsed / at-risk
+1222,Loyal high-value
+1223,Occasional shoppers
+1224,Steady regulars
+1225,Steady regulars
+1226,Steady regulars
+1227,Steady regulars
+1228,Loyal high-value
+1229,Loyal high-value
+1230,Lapsed / at-risk
+1231,Occasional shoppers
+1232,Occasional shoppers
+1233,Occasional shoppers
+1234,Loyal high-value
+1235,Occasional shoppers
+1236,Loyal high-value
+1237,Steady regulars
+1238,Steady regulars
+1239,Occasional shoppers
+1240,Loyal high-value
+1241,Steady regulars
+1242,Occasional shoppers
+1243,Lapsed / at-risk
+1244,Occasional shoppers
+1245,Loyal high-value
+1246,Steady regulars
+1247,Loyal high-value
+1248,Loyal high-value
+1249,Lapsed / at-risk
+1250,Lapsed / at-risk
+1251,Steady regulars
+1252,Occasional shoppers
+1253,Lapsed / at-risk
+1254,Lapsed / at-risk
+1255,Occasional shoppers
+1256,Loyal high-value
+1257,Occasional shoppers
+1258,Loyal high-value
+1259,Occasional shoppers
+1260,Loyal high-value
+1261,Loyal high-value
+1262,Occasional shoppers
+1263,Loyal high-value
+1264,Loyal high-value
+1265,Occasional shoppers
+1266,Steady regulars
+1267,Occasional shoppers
+1268,Steady regulars
+1269,Steady regulars
+1270,Steady regulars
+1271,Steady regulars
+1272,Loyal high-value
+1273,Lapsed / at-risk
+1274,Loyal high-value
+1275,Lapsed / at-risk
+1276,Lapsed / at-risk
+1277,Loyal high-value
+1278,Occasional shoppers
+1279,Loyal high-value
+1280,Occasional shoppers
+1281,Occasional shoppers
+1282,Loyal high-value
+1283,Occasional shoppers
+1284,Steady regulars
+1285,Steady regulars
+1286,Steady regulars
+1287,Loyal high-value
+1288,Steady regulars
+1289,Loyal high-value
+1290,Occasional shoppers
+1291,Steady regulars
+1292,Occasional shoppers
+1293,Steady regulars
+1294,Steady regulars
+1295,Occasional shoppers
+1296,Steady regulars
+1297,Steady regulars
+1298,Steady regulars
+1299,Loyal high-value
+1300,Steady regulars
+1301,Steady regulars
+1302,Occasional shoppers
+1303,Loyal high-value
+1304,Occasional shoppers
+1305,Loyal high-value
+1306,Steady regulars
+1307,Steady regulars
+1308,Lapsed / at-risk
+1309,Lapsed / at-risk
+1310,Occasional shoppers
+1311,Lapsed / at-risk
+1312,Loyal high-value
+1313,Occasional shoppers
+1314,Loyal high-value
+1315,Lapsed / at-risk
+1316,Steady regulars
+1317,Loyal high-value
+1318,Steady regulars
+1319,Steady regulars
+1320,Lapsed / at-risk
+1321,Steady regulars
+1322,Occasional shoppers
+1323,Lapsed / at-risk
+1324,Occasional shoppers
+1325,Steady regulars
+1326,Loyal high-value
+1327,Lapsed / at-risk
+1328,Steady regulars
+1329,Occasional shoppers
+1330,Steady regulars
+1331,Steady regulars
+1332,Steady regulars
+1333,Loyal high-value
+1334,Occasional shoppers
+1335,Occasional shoppers
+1336,Loyal high-value
+1337,Loyal high-value
+1338,Steady regulars
+1339,Lapsed / at-risk
+1340,Occasional shoppers
+1341,Occasional shoppers
+1342,Lapsed / at-risk
+1343,Lapsed / at-risk
+1344,Occasional shoppers
+1345,Steady regulars
+1346,Steady regulars
+1347,Steady regulars
+1348,Occasional shoppers
+1349,Loyal high-value
+1350,Steady regulars
+1351,Occasional shoppers
+1352,Loyal high-value
+1353,Loyal high-value
+1354,Steady regulars
+1355,Lapsed / at-risk
+1356,Steady regulars
+1357,Steady regulars
+1358,Lapsed / at-risk
+1359,Steady regulars
+1360,Occasional shoppers
+1361,Occasional shoppers
+1362,Steady regulars
+1363,Steady regulars
+1364,Steady regulars
+1365,Lapsed / at-risk
+1366,Loyal high-value
+1367,Loyal high-value
+1368,Occasional shoppers
+1369,Steady regulars
+1370,Steady regulars
+1371,Steady regulars
+1372,Occasional shoppers
+1373,Occasional shoppers
+1374,Steady regulars
+1375,Steady regulars
+1376,Loyal high-value
+1377,Occasional shoppers
+1378,Loyal high-value
+1379,Loyal high-value
+1380,Occasional shoppers
+1381,Occasional shoppers
+1382,Loyal high-value
+1383,Steady regulars
+1384,Occasional shoppers
+1385,Steady regulars
+1386,Lapsed / at-risk
+1387,Steady regulars
+1388,Loyal high-value
+1389,Occasional shoppers
+1390,Loyal high-value
+1391,Loyal high-value
+1392,Steady regulars
+1393,Loyal high-value
+1394,Loyal high-value
+1395,Steady regulars
+1396,Loyal high-value
+1397,Loyal high-value
+1398,Occasional shoppers
+1399,Occasional shoppers
+1400,Lapsed / at-risk
+1401,Occasional shoppers
+1402,Steady regulars
+1403,Loyal high-value
+1404,Steady regulars
+1405,Steady regulars
+1406,Loyal high-value
+1407,Occasional shoppers
+1408,Steady regulars
+1409,Steady regulars
+1410,Steady regulars
+1411,Lapsed / at-risk
+1412,Steady regulars
+1413,Lapsed / at-risk
+1414,Lapsed / at-risk
+1415,Lapsed / at-risk
+1416,Lapsed / at-risk
+1417,Steady regulars
+1418,Steady regulars
+1419,Loyal high-value
+1420,Steady regulars
+1421,Loyal high-value
+1422,Lapsed / at-risk
+1423,Steady regulars
+1424,Occasional shoppers
+1425,Steady regulars
+1426,Steady regulars
+1427,Occasional shoppers
+1428,Loyal high-value
+1429,Steady regulars
+1430,Loyal high-value
+1431,Loyal high-value
+1432,Occasional shoppers
+1433,Lapsed / at-risk
+1434,Loyal high-value
+1435,Lapsed / at-risk
+1436,Lapsed / at-risk
+1437,Loyal high-value
+1438,Steady regulars
+1439,Occasional shoppers
+1440,Steady regulars
+1441,Lapsed / at-risk
+1442,Occasional shoppers
+1443,Loyal high-value
+1444,Lapsed / at-risk
+1445,Loyal high-value
+1446,Steady regulars
+1447,Occasional shoppers
+1448,Steady regulars
+1449,Occasional shoppers
+1450,Steady regulars
+1451,Loyal high-value
+1452,Loyal high-value
+1453,Loyal high-value
+1454,Loyal high-value
+1455,Lapsed / at-risk
+1456,Steady regulars
+1457,Occasional shoppers
+1458,Steady regulars
+1459,Steady regulars
+1460,Steady regulars
+1461,Loyal high-value
+1462,Steady regulars
+1463,Loyal high-value
+1464,Steady regulars
+1465,Occasional shoppers
+1466,Occasional shoppers
+1467,Loyal high-value
+1468,Loyal high-value
+1469,Steady regulars
+1470,Steady regulars
+1471,Occasional shoppers
+1472,Lapsed / at-risk
+1473,Steady regulars
+1474,Steady regulars
+1475,Loyal high-value
+1476,Loyal high-value
+1477,Lapsed / at-risk
+1478,Lapsed / at-risk
+1479,Loyal high-value
+1480,Lapsed / at-risk
+1481,Steady regulars
+1482,Occasional shoppers
+1483,Loyal high-value
+1484,Steady regulars
+1485,Steady regulars
+1486,Lapsed / at-risk
+1487,Lapsed / at-risk
+1488,Steady regulars
+1489,Loyal high-value
+1490,Loyal high-value
+1491,Loyal high-value
+1492,Steady regulars
+1493,Occasional shoppers
+1494,Steady regulars
+1495,Steady regulars
+1496,Occasional shoppers
+1497,Lapsed / at-risk
+1498,Occasional shoppers
+1499,Steady regulars
+1500,Occasional shoppers
+1501,Loyal high-value
+1502,Steady regulars
+1503,Lapsed / at-risk
+1504,Lapsed / at-risk
+1505,Steady regulars
+1506,Steady regulars
+1507,Lapsed / at-risk
+1508,Steady regulars
+1509,Loyal high-value
+1510,Loyal high-value
+1511,Steady regulars
+1512,Steady regulars
+1513,Occasional shoppers
+1514,Steady regulars
+1515,Loyal high-value
+1516,Occasional shoppers
+1517,Loyal high-value
+1518,Occasional shoppers
+1519,Lapsed / at-risk
+1520,Loyal high-value
+1521,Occasional shoppers
+1522,Occasional shoppers
+1523,Occasional shoppers
+1524,Steady regulars
+1525,Occasional shoppers
+1526,Steady regulars
+1527,Loyal high-value
+1528,Loyal high-value
+1529,Loyal high-value
+1530,Occasional shoppers
+1531,Occasional shoppers
+1532,Steady regulars
+1533,Lapsed / at-risk
+1534,Loyal high-value
+1535,Loyal high-value
+1536,Loyal high-value
+1537,Steady regulars
+1538,Occasional shoppers
+1539,Lapsed / at-risk
+1540,Steady regulars
+1541,Steady regulars
+1542,Steady regulars
+1543,Steady regulars
+1544,Steady regulars
+1545,Loyal high-value
+1546,Steady regulars
+1547,Steady regulars
+1548,Steady regulars
+1549,Loyal high-value
+1550,Occasional shoppers
+1551,Lapsed / at-risk
+1552,Occasional shoppers
+1553,Lapsed / at-risk
+1554,Steady regulars
+1555,Steady regulars
+1556,Loyal high-value
+1557,Loyal high-value
+1558,Loyal high-value
+1559,Steady regulars
+1560,Occasional shoppers
+1561,Lapsed / at-risk
+1562,Occasional shoppers
+1563,Steady regulars
+1564,Occasional shoppers
+1565,Occasional shoppers
+1566,Loyal high-value
+1567,Steady regulars
+1568,Steady regulars
+1569,Steady regulars
+1570,Occasional shoppers
+1571,Occasional shoppers
+1572,Steady regulars
+1573,Occasional shoppers
+1574,Steady regulars
+1575,Occasional shoppers
+1576,Lapsed / at-risk
+1577,Steady regulars
+1578,Steady regulars
+1579,Loyal high-value
+1580,Steady regulars
+1581,Occasional shoppers
+1582,Steady regulars
+1583,Occasional shoppers
+1584,Loyal high-value
+1585,Loyal high-value
+1586,Steady regulars
+1587,Occasional shoppers
+1588,Loyal high-value
+1589,Lapsed / at-risk
+1590,Loyal high-value
+1591,Steady regulars
+1592,Occasional shoppers
+1593,Steady regulars
+1594,Steady regulars
+1595,Loyal high-value
+1596,Occasional shoppers
+1597,Occasional shoppers
+1598,Loyal high-value
+1599,Loyal high-value
+1600,Occasional shoppers
+1601,Occasional shoppers
+1602,Loyal high-value
+1603,Occasional shoppers
+1604,Steady regulars
+1605,Steady regulars
+1606,Occasional shoppers
+1607,Loyal high-value
+1608,Occasional shoppers
+1609,Loyal high-value
+1610,Lapsed / at-risk
+1611,Occasional shoppers
+1612,Loyal high-value
+1613,Loyal high-value
+1614,Steady regulars
+1615,Steady regulars
+1616,Steady regulars
+1617,Loyal high-value
+1618,Steady regulars
+1619,Loyal high-value
+1620,Loyal high-value
+1621,Steady regulars
+1622,Loyal high-value
+1623,Steady regulars
+1624,Steady regulars
+1625,Occasional shoppers
+1626,Lapsed / at-risk
+1627,Steady regulars
+1628,Lapsed / at-risk
+1629,Occasional shoppers
+1630,Loyal high-value
+1631,Loyal high-value
+1632,Steady regulars
+1633,Loyal high-value
+1634,Steady regulars
+1635,Lapsed / at-risk
+1636,Lapsed / at-risk
+1637,Occasional shoppers
+1638,Occasional shoppers
+1639,Steady regulars
+1640,Loyal high-value
+1641,Occasional shoppers
+1642,Steady regulars
+1643,Occasional shoppers
+1644,Lapsed / at-risk
+1645,Lapsed / at-risk
+1646,Steady regulars
+1647,Lapsed / at-risk
+1648,Steady regulars
+1649,Occasional shoppers
+1650,Steady regulars
+1651,Steady regulars
+1652,Occasional shoppers
+1653,Loyal high-value
+1654,Occasional shoppers
+1655,Lapsed / at-risk
+1656,Occasional shoppers
+1657,Occasional shoppers
+1658,Occasional shoppers
+1659,Steady regulars
+1660,Steady regulars
+1661,Occasional shoppers
+1662,Loyal high-value
+1663,Steady regulars
+1664,Lapsed / at-risk
+1665,Occasional shoppers
+1666,Steady regulars
+1667,Occasional shoppers
+1668,Steady regulars
+1669,Lapsed / at-risk
+1670,Lapsed / at-risk
+1671,Steady regulars
+1672,Steady regulars
+1673,Steady regulars
+1674,Lapsed / at-risk
+1675,Loyal high-value
+1676,Steady regulars
+1677,Loyal high-value
+1678,Steady regulars
+1679,Lapsed / at-risk
+1680,Steady regulars
+1681,Occasional shoppers
+1682,Lapsed / at-risk
+1683,Steady regulars
+1684,Occasional shoppers
+1685,Steady regulars
+1686,Steady regulars
+1687,Steady regulars
+1688,Occasional shoppers
+1689,Steady regulars
+1690,Steady regulars
+1691,Occasional shoppers
+1692,Steady regulars
+1693,Loyal high-value
+1694,Loyal high-value
+1695,Steady regulars
+1696,Steady regulars
+1697,Occasional shoppers
+1698,Occasional shoppers
+1699,Occasional shoppers
+1700,Occasional shoppers
+1701,Steady regulars
+1702,Occasional shoppers
+1703,Loyal high-value
+1704,Occasional shoppers
+1705,Steady regulars
+1706,Occasional shoppers
+1707,Loyal high-value
+1708,Occasional shoppers
+1709,Steady regulars
+1710,Loyal high-value
+1711,Occasional shoppers
+1712,Occasional shoppers
+1713,Occasional shoppers
+1714,Occasional shoppers
+1715,Steady regulars
+1716,Loyal high-value
+1717,Steady regulars
+1718,Lapsed / at-risk
+1719,Occasional shoppers
+1720,Loyal high-value
+1721,Lapsed / at-risk
+1722,Loyal high-value
+1723,Steady regulars
+1724,Steady regulars
+1725,Occasional shoppers
+1726,Loyal high-value
+1727,Lapsed / at-risk
+1728,Occasional shoppers
+1729,Steady regulars
+1730,Loyal high-value
+1731,Steady regulars
+1732,Steady regulars
+1733,Lapsed / at-risk
+1734,Lapsed / at-risk
+1735,Steady regulars
+1736,Occasional shoppers
+1737,Lapsed / at-risk
+1738,Steady regulars
+1739,Occasional shoppers
+1740,Loyal high-value
+1741,Occasional shoppers
+1742,Loyal high-value
+1743,Steady regulars
+1744,Steady regulars
+1745,Loyal high-value
+1746,Steady regulars
+1747,Steady regulars
+1748,Loyal high-value
+1749,Loyal high-value
+1750,Occasional shoppers
+1751,Loyal high-value
+1752,Loyal high-value
+1753,Loyal high-value
+1754,Loyal high-value
+1755,Steady regulars
+1756,Steady regulars
+1757,Lapsed / at-risk
+1758,Steady regulars
+1759,Loyal high-value
+1760,Occasional shoppers
+1761,Steady regulars
+1762,Loyal high-value
+1763,Loyal high-value
+1764,Steady regulars
+1765,Steady regulars
+1766,Occasional shoppers
+1767,Loyal high-value
+1768,Steady regulars
+1769,Loyal high-value
+1770,Loyal high-value
+1771,Occasional shoppers
+1772,Steady regulars
+1773,Steady regulars
+1774,Steady regulars
+1775,Loyal high-value
+1776,Loyal high-value
+1777,Occasional shoppers
+1778,Loyal high-value
+1779,Steady regulars
+1780,Occasional shoppers
+1781,Steady regulars
+1782,Steady regulars
+1783,Steady regulars
+1784,Occasional shoppers
+1785,Steady regulars
+1786,Occasional shoppers
+1787,Steady regulars
+1788,Loyal high-value
+1789,Lapsed / at-risk
+1790,Steady regulars
+1791,Steady regulars
+1792,Occasional shoppers
+1793,Steady regulars
+1794,Steady regulars
+1795,Loyal high-value
+1796,Steady regulars
+1797,Steady regulars
+1798,Steady regulars
+1799,Occasional shoppers
+1800,Steady regulars
+1801,Occasional shoppers
+1802,Steady regulars
+1803,Loyal high-value
+1804,Loyal high-value
+1805,Steady regulars
+1806,Loyal high-value
+1807,Loyal high-value
+1808,Steady regulars
+1809,Steady regulars
+1810,Loyal high-value
+1811,Occasional shoppers
+1812,Steady regulars
+1813,Lapsed / at-risk
+1814,Occasional shoppers
+1815,Steady regulars
+1816,Loyal high-value
+1817,Occasional shoppers
+1818,Occasional shoppers
+1819,Steady regulars
+1820,Steady regulars
+1821,Steady regulars
+1822,Loyal high-value
+1823,Loyal high-value
+1824,Steady regulars
+1825,Steady regulars
+1826,Steady regulars
+1827,Occasional shoppers
+1828,Steady regulars
+1829,Loyal high-value
+1830,Lapsed / at-risk
+1831,Loyal high-value
+1832,Steady regulars
+1833,Steady regulars
+1834,Loyal high-value
+1835,Loyal high-value
+1836,Steady regulars
+1837,Loyal high-value
+1838,Occasional shoppers
+1839,Steady regulars
+1840,Occasional shoppers
+1841,Steady regulars
+1842,Occasional shoppers
+1843,Occasional shoppers
+1844,Steady regulars
+1845,Loyal high-value
+1846,Occasional shoppers
+1847,Steady regulars
+1848,Loyal high-value
+1849,Steady regulars
+1850,Loyal high-value
+1851,Occasional shoppers
+1852,Loyal high-value
+1853,Occasional shoppers
+1854,Loyal high-value
+1855,Occasional shoppers
+1856,Loyal high-value
+1857,Steady regulars
+1858,Steady regulars
+1859,Steady regulars
+1860,Steady regulars
+1861,Steady regulars
+1862,Loyal high-value
+1863,Occasional shoppers
+1864,Loyal high-value
+1865,Loyal high-value
+1866,Lapsed / at-risk
+1867,Steady regulars
+1868,Occasional shoppers
+1869,Steady regulars
+1870,Occasional shoppers
+1871,Occasional shoppers
+1872,Loyal high-value
+1873,Loyal high-value
+1874,Occasional shoppers
+1875,Occasional shoppers
+1876,Lapsed / at-risk
+1877,Steady regulars
+1878,Occasional shoppers
+1879,Loyal high-value
+1880,Occasional shoppers
+1881,Steady regulars
+1882,Lapsed / at-risk
+1883,Steady regulars
+1884,Occasional shoppers
+1885,Lapsed / at-risk
+1886,Occasional shoppers
+1887,Steady regulars
+1888,Lapsed / at-risk
+1889,Steady regulars
+1890,Steady regulars
+1891,Occasional shoppers
+1892,Loyal high-value
+1893,Occasional shoppers
+1894,Occasional shoppers
+1895,Occasional shoppers
+1896,Steady regulars
+1897,Lapsed / at-risk
+1898,Occasional shoppers
+1899,Loyal high-value
+1900,Steady regulars
+1901,Loyal high-value
+1902,Occasional shoppers
+1903,Steady regulars
+1904,Lapsed / at-risk
+1905,Steady regulars
+1906,Loyal high-value
+1907,Loyal high-value
+1908,Occasional shoppers
+1909,Lapsed / at-risk
+1910,Occasional shoppers
+1911,Steady regulars
+1912,Steady regulars
+1913,Occasional shoppers
+1914,Loyal high-value
+1915,Occasional shoppers
+1916,Loyal high-value
+1917,Loyal high-value
+1918,Steady regulars
+1919,Steady regulars
+1920,Steady regulars
+1921,Steady regulars
+1922,Steady regulars
+1923,Loyal high-value
+1924,Loyal high-value
+1925,Loyal high-value
+1926,Steady regulars
+1927,Steady regulars
+1928,Steady regulars
+1929,Steady regulars
+1930,Loyal high-value
+1931,Steady regulars
+1932,Steady regulars
+1933,Steady regulars
+1934,Occasional shoppers
+1935,Loyal high-value
+1936,Loyal high-value
+1937,Loyal high-value
+1938,Occasional shoppers
+1939,Steady regulars
+1940,Steady regulars
+1941,Steady regulars
+1942,Steady regulars
+1943,Loyal high-value
+1944,Loyal high-value
+1945,Occasional shoppers
+1946,Occasional shoppers
+1947,Loyal high-value
+1948,Steady regulars
+1949,Occasional shoppers
+1950,Occasional shoppers
+1951,Lapsed / at-risk
+1952,Lapsed / at-risk
+1953,Steady regulars
+1954,Steady regulars
+1955,Steady regulars
+1956,Steady regulars
+1957,Steady regulars
+1958,Occasional shoppers
+1959,Loyal high-value
+1960,Steady regulars
+1961,Steady regulars
+1962,Steady regulars
+1963,Steady regulars
+1964,Steady regulars
+1965,Loyal high-value
+1966,Loyal high-value
+1967,Steady regulars
+1968,Steady regulars
+1969,Loyal high-value
+1970,Steady regulars
+1971,Loyal high-value
+1972,Steady regulars
+1973,Steady regulars
+1974,Loyal high-value
+1975,Loyal high-value
+1976,Steady regulars
+1977,Occasional shoppers
+1978,Steady regulars
+1979,Steady regulars
+1980,Steady regulars
+1981,Steady regulars
+1982,Steady regulars
+1983,Steady regulars
+1985,Loyal high-value
+1986,Occasional shoppers
+1987,Steady regulars
+1988,Loyal high-value
+1989,Steady regulars
+1990,Steady regulars
+1991,Occasional shoppers
+1992,Occasional shoppers
+1993,Steady regulars
+1994,Occasional shoppers
+1995,Loyal high-value
+1996,Steady regulars
+1997,Steady regulars
+1998,Loyal high-value
+1999,Occasional shoppers
+2000,Occasional shoppers
+2001,Steady regulars
+2002,Steady regulars
+2003,Occasional shoppers
+2004,Loyal high-value
+2005,Occasional shoppers
+2006,Steady regulars
+2007,Loyal high-value
+2008,Occasional shoppers
+2009,Occasional shoppers
+2010,Occasional shoppers
+2011,Steady regulars
+2012,Loyal high-value
+2013,Steady regulars
+2014,Occasional shoppers
+2015,Loyal high-value
+2016,Steady regulars
+2017,Loyal high-value
+2018,Steady regulars
+2019,Loyal high-value
+2020,Loyal high-value
+2021,Steady regulars
+2022,Steady regulars
+2023,Steady regulars
+2024,Steady regulars
+2025,Occasional shoppers
+2026,Occasional shoppers
+2027,Steady regulars
+2028,Steady regulars
+2029,Occasional shoppers
+2030,Steady regulars
+2031,Lapsed / at-risk
+2032,Steady regulars
+2033,Steady regulars
+2034,Steady regulars
+2035,Steady regulars
+2036,Steady regulars
+2037,Steady regulars
+2038,Occasional shoppers
+2039,Occasional shoppers
+2040,Loyal high-value
+2041,Loyal high-value
+2042,Steady regulars
+2043,Steady regulars
+2044,Steady regulars
+2045,Occasional shoppers
+2046,Occasional shoppers
+2047,Loyal high-value
+2048,Occasional shoppers
+2049,Occasional shoppers
+2050,Loyal high-value
+2051,Loyal high-value
+2052,Lapsed / at-risk
+2053,Loyal high-value
+2054,Occasional shoppers
+2055,Steady regulars
+2056,Steady regulars
+2057,Steady regulars
+2058,Loyal high-value
+2059,Occasional shoppers
+2060,Occasional shoppers
+2061,Occasional shoppers
+2062,Loyal high-value
+2063,Steady regulars
+2064,Loyal high-value
+2065,Steady regulars
+2066,Steady regulars
+2067,Lapsed / at-risk
+2068,Steady regulars
+2069,Steady regulars
+2070,Loyal high-value
+2071,Loyal high-value
+2072,Lapsed / at-risk
+2073,Occasional shoppers
+2074,Occasional shoppers
+2075,Loyal high-value
+2076,Loyal high-value
+2077,Steady regulars
+2078,Steady regulars
+2079,Steady regulars
+2080,Loyal high-value
+2081,Occasional shoppers
+2082,Loyal high-value
+2083,Loyal high-value
+2084,Steady regulars
+2085,Loyal high-value
+2086,Loyal high-value
+2087,Loyal high-value
+2088,Steady regulars
+2089,Occasional shoppers
+2090,Occasional shoppers
+2091,Occasional shoppers
+2092,Steady regulars
+2093,Occasional shoppers
+2094,Steady regulars
+2095,Steady regulars
+2096,Occasional shoppers
+2097,Loyal high-value
+2098,Occasional shoppers
+2099,Steady regulars
+2100,Steady regulars
+2101,Lapsed / at-risk
+2102,Steady regulars
+2103,Occasional shoppers
+2104,Occasional shoppers
+2105,Occasional shoppers
+2106,Steady regulars
+2107,Steady regulars
+2108,Steady regulars
+2109,Steady regulars
+2110,Loyal high-value
+2111,Steady regulars
+2112,Steady regulars
+2113,Steady regulars
+2114,Loyal high-value
+2115,Loyal high-value
+2116,Loyal high-value
+2117,Occasional shoppers
+2118,Steady regulars
+2119,Steady regulars
+2120,Occasional shoppers
+2121,Loyal high-value
+2122,Lapsed / at-risk
+2123,Steady regulars
+2124,Loyal high-value
+2125,Steady regulars
+2126,Loyal high-value
+2127,Occasional shoppers
+2128,Steady regulars
+2129,Loyal high-value
+2130,Steady regulars
+2131,Loyal high-value
+2132,Occasional shoppers
+2133,Loyal high-value
+2134,Steady regulars
+2135,Occasional shoppers
+2136,Occasional shoppers
+2137,Loyal high-value
+2138,Steady regulars
+2139,Loyal high-value
+2140,Steady regulars
+2141,Loyal high-value
+2142,Loyal high-value
+2143,Lapsed / at-risk
+2144,Occasional shoppers
+2145,Occasional shoppers
+2146,Steady regulars
+2147,Steady regulars
+2148,Steady regulars
+2149,Loyal high-value
+2150,Lapsed / at-risk
+2151,Steady regulars
+2152,Occasional shoppers
+2153,Lapsed / at-risk
+2154,Steady regulars
+2155,Occasional shoppers
+2156,Loyal high-value
+2157,Occasional shoppers
+2158,Steady regulars
+2159,Steady regulars
+2160,Occasional shoppers
+2161,Occasional shoppers
+2162,Loyal high-value
+2163,Lapsed / at-risk
+2164,Occasional shoppers
+2165,Lapsed / at-risk
+2166,Occasional shoppers
+2167,Steady regulars
+2168,Loyal high-value
+2169,Occasional shoppers
+2170,Loyal high-value
+2171,Steady regulars
+2172,Steady regulars
+2173,Steady regulars
+2174,Occasional shoppers
+2175,Occasional shoppers
+2176,Loyal high-value
+2177,Lapsed / at-risk
+2178,Loyal high-value
+2179,Occasional shoppers
+2180,Occasional shoppers
+2181,Occasional shoppers
+2182,Occasional shoppers
+2183,Loyal high-value
+2184,Loyal high-value
+2185,Loyal high-value
+2186,Steady regulars
+2187,Steady regulars
+2188,Loyal high-value
+2189,Steady regulars
+2190,Loyal high-value
+2191,Occasional shoppers
+2192,Occasional shoppers
+2193,Loyal high-value
+2194,Loyal high-value
+2195,Steady regulars
+2196,Steady regulars
+2197,Occasional shoppers
+2198,Loyal high-value
+2199,Loyal high-value
+2200,Loyal high-value
+2201,Lapsed / at-risk
+2202,Occasional shoppers
+2203,Loyal high-value
+2204,Steady regulars
+2205,Steady regulars
+2206,Occasional shoppers
+2207,Loyal high-value
+2208,Loyal high-value
+2209,Loyal high-value
+2210,Occasional shoppers
+2211,Steady regulars
+2212,Occasional shoppers
+2213,Steady regulars
+2214,Lapsed / at-risk
+2215,Steady regulars
+2216,Occasional shoppers
+2217,Loyal high-value
+2218,Occasional shoppers
+2219,Occasional shoppers
+2220,Lapsed / at-risk
+2221,Steady regulars
+2222,Steady regulars
+2223,Steady regulars
+2224,Steady regulars
+2225,Steady regulars
+2226,Loyal high-value
+2227,Loyal high-value
+2228,Loyal high-value
+2229,Occasional shoppers
+2230,Occasional shoppers
+2231,Steady regulars
+2232,Occasional shoppers
+2233,Loyal high-value
+2234,Loyal high-value
+2235,Steady regulars
+2236,Loyal high-value
+2237,Loyal high-value
+2238,Steady regulars
+2239,Steady regulars
+2240,Loyal high-value
+2241,Steady regulars
+2242,Steady regulars
+2243,Steady regulars
+2244,Loyal high-value
+2245,Steady regulars
+2246,Lapsed / at-risk
+2247,Steady regulars
+2248,Occasional shoppers
+2249,Lapsed / at-risk
+2250,Steady regulars
+2251,Occasional shoppers
+2252,Loyal high-value
+2253,Occasional shoppers
+2254,Steady regulars
+2255,Occasional shoppers
+2256,Occasional shoppers
+2257,Occasional shoppers
+2258,Steady regulars
+2259,Lapsed / at-risk
+2260,Loyal high-value
+2261,Loyal high-value
+2262,Steady regulars
+2263,Loyal high-value
+2264,Loyal high-value
+2265,Lapsed / at-risk
+2266,Loyal high-value
+2267,Occasional shoppers
+2268,Occasional shoppers
+2269,Loyal high-value
+2270,Loyal high-value
+2271,Occasional shoppers
+2272,Steady regulars
+2273,Steady regulars
+2274,Steady regulars
+2275,Steady regulars
+2276,Occasional shoppers
+2277,Loyal high-value
+2278,Steady regulars
+2279,Occasional shoppers
+2280,Loyal high-value
+2281,Steady regulars
+2282,Steady regulars
+2283,Occasional shoppers
+2284,Loyal high-value
+2285,Steady regulars
+2286,Occasional shoppers
+2287,Occasional shoppers
+2288,Loyal high-value
+2289,Steady regulars
+2290,Occasional shoppers
+2291,Occasional shoppers
+2292,Steady regulars
+2293,Steady regulars
+2294,Loyal high-value
+2295,Loyal high-value
+2296,Loyal high-value
+2297,Occasional shoppers
+2298,Steady regulars
+2299,Steady regulars
+2300,Steady regulars
+2301,Loyal high-value
+2302,Steady regulars
+2303,Steady regulars
+2304,Occasional shoppers
+2305,Loyal high-value
+2306,Lapsed / at-risk
+2307,Loyal high-value
+2308,Occasional shoppers
+2309,Lapsed / at-risk
+2310,Steady regulars
+2311,Steady regulars
+2312,Loyal high-value
+2313,Lapsed / at-risk
+2314,Steady regulars
+2315,Lapsed / at-risk
+2316,Occasional shoppers
+2317,Loyal high-value
+2318,Loyal high-value
+2319,Occasional shoppers
+2320,Occasional shoppers
+2321,Lapsed / at-risk
+2322,Loyal high-value
+2323,Occasional shoppers
+2324,Steady regulars
+2326,Occasional shoppers
+2327,Steady regulars
+2328,Loyal high-value
+2329,Loyal high-value
+2330,Loyal high-value
+2331,Loyal high-value
+2332,Lapsed / at-risk
+2333,Lapsed / at-risk
+2334,Loyal high-value
+2335,Occasional shoppers
+2336,Steady regulars
+2337,Loyal high-value
+2338,Steady regulars
+2339,Lapsed / at-risk
+2340,Steady regulars
+2341,Loyal high-value
+2342,Loyal high-value
+2343,Loyal high-value
+2344,Steady regulars
+2345,Occasional shoppers
+2346,Occasional shoppers
+2347,Steady regulars
+2348,Lapsed / at-risk
+2349,Steady regulars
+2350,Occasional shoppers
+2351,Loyal high-value
+2352,Occasional shoppers
+2353,Occasional shoppers
+2354,Steady regulars
+2355,Lapsed / at-risk
+2356,Steady regulars
+2357,Occasional shoppers
+2358,Steady regulars
+2359,Steady regulars
+2360,Loyal high-value
+2361,Steady regulars
+2362,Occasional shoppers
+2363,Occasional shoppers
+2364,Loyal high-value
+2365,Lapsed / at-risk
+2366,Loyal high-value
+2367,Loyal high-value
+2368,Steady regulars
+2369,Steady regulars
+2370,Loyal high-value
+2371,Steady regulars
+2372,Steady regulars
+2373,Loyal high-value
+2374,Steady regulars
+2375,Steady regulars
+2376,Steady regulars
+2377,Steady regulars
+2378,Loyal high-value
+2379,Steady regulars
+2380,Loyal high-value
+2381,Steady regulars
+2382,Occasional shoppers
+2383,Occasional shoppers
+2384,Occasional shoppers
+2385,Loyal high-value
+2386,Occasional shoppers
+2387,Occasional shoppers
+2388,Occasional shoppers
+2389,Occasional shoppers
+2390,Occasional shoppers
+2391,Occasional shoppers
+2392,Occasional shoppers
+2393,Steady regulars
+2394,Steady regulars
+2395,Loyal high-value
+2396,Lapsed / at-risk
+2397,Occasional shoppers
+2398,Steady regulars
+2399,Lapsed / at-risk
+2400,Loyal high-value
+2401,Steady regulars
+2402,Steady regulars
+2403,Lapsed / at-risk
+2404,Lapsed / at-risk
+2405,Steady regulars
+2406,Loyal high-value
+2407,Loyal high-value
+2408,Occasional shoppers
+2409,Occasional shoppers
+2410,Steady regulars
+2411,Steady regulars
+2412,Loyal high-value
+2413,Lapsed / at-risk
+2414,Lapsed / at-risk
+2415,Steady regulars
+2416,Steady regulars
+2417,Lapsed / at-risk
+2418,Steady regulars
+2419,Occasional shoppers
+2420,Steady regulars
+2421,Loyal high-value
+2422,Lapsed / at-risk
+2423,Steady regulars
+2424,Loyal high-value
+2425,Steady regulars
+2426,Steady regulars
+2427,Loyal high-value
+2428,Lapsed / at-risk
+2429,Steady regulars
+2430,Steady regulars
+2431,Steady regulars
+2432,Loyal high-value
+2433,Occasional shoppers
+2434,Occasional shoppers
+2435,Steady regulars
+2436,Occasional shoppers
+2437,Steady regulars
+2438,Steady regulars
+2439,Occasional shoppers
+2440,Steady regulars
+2441,Steady regulars
+2442,Occasional shoppers
+2443,Loyal high-value
+2444,Lapsed / at-risk
+2445,Loyal high-value
+2446,Loyal high-value
+2447,Loyal high-value
+2448,Loyal high-value
+2449,Loyal high-value
+2450,Steady regulars
+2451,Loyal high-value
+2452,Steady regulars
+2453,Steady regulars
+2454,Occasional shoppers
+2455,Steady regulars
+2456,Steady regulars
+2457,Steady regulars
+2458,Steady regulars
+2459,Loyal high-value
+2460,Occasional shoppers
+2461,Occasional shoppers
+2462,Loyal high-value
+2463,Occasional shoppers
+2464,Steady regulars
+2465,Steady regulars
+2466,Steady regulars
+2467,Loyal high-value
+2468,Steady regulars
+2469,Occasional shoppers
+2470,Steady regulars
+2471,Occasional shoppers
+2472,Occasional shoppers
+2473,Lapsed / at-risk
+2474,Occasional shoppers
+2475,Steady regulars
+2476,Occasional shoppers
+2477,Occasional shoppers
+2478,Loyal high-value
+2479,Loyal high-value
+2480,Steady regulars
+2481,Loyal high-value
+2482,Occasional shoppers
+2483,Occasional shoppers
+2484,Loyal high-value
+2485,Steady regulars
+2486,Steady regulars
+2487,Occasional shoppers
+2488,Loyal high-value
+2489,Loyal high-value
+2490,Occasional shoppers
+2491,Occasional shoppers
+2492,Steady regulars
+2493,Steady regulars
+2494,Occasional shoppers
+2495,Lapsed / at-risk
+2496,Steady regulars
+2497,Loyal high-value
+2498,Steady regulars
+2499,Steady regulars
+2500,Steady regulars
