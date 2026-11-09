@@ -1,11 +1,13 @@
 \thispagestyle{plain}
-{\color{ink}\small RESEARCH AT A GLANCE}\par
-\vspace{3mm}
-{\color{ink}\LARGE\bfseries Does more shopping detail\\produce better customer segments?}\par
+{\color{ink}\small\bfseries RESEARCH AT A GLANCE}\par
+\vspace{2mm}
+{\color{ink}\LARGE\bfseries Does more shopping detail produce better customer segments?}\par
+\vspace{1mm}
+{\color{ink}\rule{\textwidth}{0.8pt}}\par
 \vspace{3mm}
 \textbf{Finding.} Adding basket behavior and department preferences to RFM did not improve household segments. RFM K-means with two groups is the best-performing model: it is the most stable and separates later spending as well as any richer alternative.
 
-\vspace{3mm}
+\vfill
 \begingroup
 \setlength{\fboxsep}{10pt}
 \colorbox{ink!7}{\parbox{\dimexpr\textwidth-20pt\relax}{
@@ -14,29 +16,45 @@
 }}
 \endgroup
 
-\vspace{5mm}
-\begin{center}
-\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
-\textcolor{ink}{\large\textbf{01\quad RFM}} & \textcolor{ink}{\large\textbf{02\quad Behavior}} & \textcolor{ink}{\large\textbf{03\quad Product}}\\[2mm]
-Recency, frequency and monetary value & RFM + basket size, variety and discount indicators & Behavior + department spending shares\\[2mm]
-3 features & 8 features & 17 features\\
-\end{tabularx}
-\end{center}
+\vfill
+{\large\bfseries\color{ink} Three feature spaces compared}\par
+\vspace{2mm}
+\begingroup
+\setlength{\fboxsep}{0pt}
+\newcommand{\spacecard}[4]{%
+  \colorbox{ink!7}{\parbox[t][34mm][t]{\dimexpr(\textwidth-8mm)/3\relax}{%
+    \vspace{3mm}\hspace*{3mm}\parbox[t][28mm][t]{\dimexpr(\textwidth-8mm)/3-6mm\relax}{%
+      \raggedright{\color{ink}\large\bfseries #1\quad #2}\par\vspace{2mm}
+      \small #3\par\vfill
+      {\color{ink}\Large\bfseries #4}\ {\small features}}\vspace{3mm}}}}
+\noindent\spacecard{01}{RFM}{Recency, frequency and monetary value}{3}\hfill
+\spacecard{02}{Behavior}{RFM + basket size, variety and discount indicators}{8}\hfill
+\spacecard{03}{Product}{Behavior + department spending shares}{17}
+\endgroup
 
-\vspace{3mm}
-{\large\bfseries Three results that change the recommendation}\par
-\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{35mm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\vfill
+{\large\bfseries\color{ink} Three results that change the recommendation}\par
+\vspace{1mm}
+{\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{36mm}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{48mm}@{}}
 \toprule
-Question & Evidence & Interpretation\\\midrule
-Will groups repeat? & Subsample ARI: \textbf{0.980 RFM}, 0.964 Product & RFM is the most stable.\\[3mm]
-Do groups separate later spend? & Explained variance: \textbf{20.4\% RFM}, 20.2\% Product & No gain from enrichment at $k=2$.\\[3mm]
-Does weighting matter? & At $k=3$, ARI to default falls to \textbf{0.433 / 0.460} at half / double category weight. & Product segments depend on how similarity is defined.\\\bottomrule
-\end{tabularx}
+\textbf{Question} & \textbf{Evidence} & \textbf{Interpretation}\\\midrule
+Will groups repeat? & Subsample ARI: \textbf{0.980 RFM} vs.\ 0.964 Product & RFM is the most stable.\\
+Do groups separate later spend? & Explained variance: \textbf{20.4\% RFM} vs.\ 20.2\% Product & No gain from enrichment at $k=2$.\\
+Does weighting matter? & At $k=3$, ARI to default falls to \textbf{0.433 / 0.460} at half / double category weight & Product segments depend on how similarity is defined.\\\bottomrule
+\end{tabularx}}
+
+\vfill
+\begingroup
+\setlength{\fboxsep}{8pt}
+\fcolorbox{ink}{white}{\parbox{\dimexpr\textwidth-18pt\relax}{
+\textbf{\color{ink}Decision.} Use RFM as the default for broad activity monitoring. Use department profiles as supplementary descriptions.
+}}
+\endgroup
 
 \vspace{4mm}
-\textbf{Decision.} Use RFM as the default for broad activity monitoring. Use department profiles as supplementary descriptions.
-
 \textbf{See the mechanism.} The household case studies show who changes groups; the membership-flow diagram makes weighting sensitivity visible. An exploratory later-category check finds a small Product advantage (0.386\% versus 0.299\% of share variation explained).
 
-{\small\color{ink}The later-category extension was added after inspecting the original holdout results.}
+\vfill
+{\small\color{ink}Note: the later-category extension was added after inspecting the original holdout results.}
 \clearpage
