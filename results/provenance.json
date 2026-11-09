@@ -1,0 +1,17 @@
+{
+  "source": "https://www.kaggle.com/api/v1/datasets/download/frtgnn/dunnhumby-the-complete-journey",
+  "source_page": "https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey",
+  "run_utc": "2026-11-09T11:16:30.113674+00:00",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "python": "3.12.14",
+  "file_sha256": {
+    "transaction_data.csv": "3a685c0729cef664d634486189f774518b84f53cde7cbf701a5963238692b476",
+    "product.csv": "7ecbcec41e0f1e5a51b43a359965cc50dc5586a2b900a378b64032750fedc949"
+  }
+}

@@ -1,0 +1,10 @@
+space_a,space_b,ari
+RFM,RFM,1.0
+RFM,Behavior,0.6138951991803384
+RFM,Product,0.5893522609945756
+Behavior,RFM,0.6138951991803384
+Behavior,Behavior,1.0
+Behavior,Product,0.8501730003383251
+Product,RFM,0.5893522609945756
+Product,Behavior,0.8501730003383251
+Product,Product,1.0

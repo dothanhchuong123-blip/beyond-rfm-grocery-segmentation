@@ -1,0 +1,3 @@
+comparison,mode,k,eta_squared_difference,conditional_ci_low,conditional_ci_high
+Product minus RFM,selected,2,-0.0019005994403135384,-0.014261669658977148,0.008599825414256402
+Product minus RFM,fixed,3,-0.14297677612677423,-0.16518334799718443,-0.11876439048142377

@@ -1,0 +1,44 @@
+\section{Problem and decision context}
+Would two households with similar spending belong in different segments because they buy different products? This is the practical choice behind adding category preferences to an RFM baseline.
+
+Grocery retailers observe more than the amount and timing of household spending: they also observe which departments households buy from and how they assemble baskets. A practical segmentation should compress this behavior into a small number of understandable groups. The additional detail is useful only if it produces a defensible, stable partition and an interpretation that supports a clear decision. Complexity alone is not evidence of improvement.
+
+This study asks whether product-aware information improves household segmentation relative to a recency, frequency and monetary-value (RFM) baseline in dunnhumby's \emph{The Complete Journey}. The assignment's transaction and product clustering option is retained. There is no supervised target variable or known correct household label. The analysis therefore evaluates the geometry, robustness and descriptive meaning of alternative partitions, rather than reporting classification accuracy.
+
+The research questions are: (1) How do baseline and enriched representations partition the same household cohort? (2) Are the partitions reproducible under different initializations and household samples? (3) Do their profiles remain understandable when assessed with common measurements? (4) Do calibration-defined groups show distinguishable behavior in a later period? These questions are related but cannot be collapsed into a single score. Clustering depends on the representation, similarity measure and intended use \cite{luxburg2012context}.
+
+A credible negative result is possible. If richer representations are less stable, create impractically small groups, or fail to add useful distinctions, the simpler baseline remains preferable. Any operational recommendation in this report is provisional: the dataset supplies observational purchase histories, not randomized evidence that a segmentation increases sales or promotion response.
+
+\section{Data provenance and analytical unit}
+The assignment points to the Kaggle distribution of dunnhumby's \emph{The Complete Journey}. The original provider describes a longitudinal record of frequently shopping households, with transactions and supporting product, demographic and marketing tables \cite{dunnhumby}. The local audit determines the actual available files and observation range rather than assuming every public distribution is identical.
+
+The analytical unit is a household with at least one eligible calibration transaction. Transaction lines are aggregated to baskets and households; product metadata links purchased product identifiers to departments. Household identifiers are grouping keys, never numerical predictors. Basket identifiers identify shopping occasions. Day indices express relative observation time; they should not be presented as independently verified calendar dates.
+
+The cohort is selective. Observed households are established shoppers in a particular historical retail setting, and their activity at other retailers is not captured. Absence of a later recorded transaction is therefore described as \emph{no observed later purchase}, not proof that a household churned. Demographic availability is incomplete and need not be representative. The study avoids making demographic or individual-sensitive claims.
+
+\section{Design principles and safeguards}
+\subsection{Temporal separation}
+Calibration transactions alone determine the household cohort, feature values, fitted preprocessing and cluster assignments. Later transactions are reserved for descriptive evaluation. This prevents later spending from influencing the partition it is used to describe. The temporal design is a retrospective holdout, not a prospective deployment experiment. Standard preprocessing safeguards are applied to keep fitting and evaluation roles distinct \cite{sklearnpitfalls}.
+
+\subsection{Representations and fair comparison}
+The RFM representation summarizes time since the most recent observed purchase, number of shopping occasions, and observed spending during calibration. Behavioral additions capture shopping intensity and basket characteristics. Product-aware additions summarize department preferences. Definitions, dimensions and transformations are reported with the generated feature tables below.
+
+Features on different scales can dominate Euclidean distances without standardization. Skewed nonnegative activity variables receive a documented transformation before scaling. Department shares are compositional: their sum is constrained, and redundant categories and differing numbers of columns can alter distance weighting. Product preferences must therefore be interpreted as a different representation of similarity, not an automatic refinement of a universal ground truth.
+
+All feature sets use the same household rows, temporal boundary and candidate cluster-count range. A paired comparison at fixed cluster count distinguishes changes in representation from changes in model size. Internal metrics are also supplemented with assessments in a common RFM space, profile summaries in original units, and agreement between partitions. These are complementary views; a common RFM space itself favors the baseline's chosen notion of similarity.
+
+\subsection{Algorithms and evaluation}
+K-means minimizes within-cluster squared Euclidean distance to cluster centroids \cite{sklearnkmeans}. Repeated initialization reduces sensitivity to an unlucky starting configuration, but does not establish a unique natural partition. The elbow curve shows diminishing improvements in this objective as more clusters are added. Inertia is comparable across cluster counts within a fixed representation; its numerical scale changes with the representation.
+
+For household $i$, silhouette is
+\[
+s(i)=\frac{b(i)-a(i)}{\max\{a(i),b(i)\}},
+\]
+where $a(i)$ is mean distance to the household's assigned group and $b(i)$ is the smallest mean distance to another group \cite{sklearnsilhouette}. Values close to one indicate compact separated assignments, near zero indicate boundaries, and negative values suggest another group is closer on average. The implementation uses a deterministic sample of up to 1,500 eligible households (random seed 42) to estimate average silhouette. Silhouette depends on the underlying distance space. Comparing its values across feature sets cannot, on its own, rank the business quality of those feature sets.
+
+DBSCAN supplies a density-based contrast to centroid clustering \cite{sklearndbscan}. It can label observations as noise and may fail to yield a useful multi-group partition at a given neighborhood radius. Scores calculated only on non-noise rows must be read together with coverage: excluding difficult observations can make a score look favorable. A failed or low-coverage configuration is a result to report, not a reason to silently remove that candidate.
+
+Adjusted Rand index (ARI) quantifies pairwise agreement between two partitions, adjusted for chance; one means identical assignments up to label permutation. Seed stability tests optimization sensitivity. Subsample stability additionally perturbs which households inform the centroids. Stable clustering need not be substantively correct, and instability may reflect weak structure, model choice or sampling effects \cite{luxburg2010stability}. The number of repetitions, sampling fraction and variability must accompany averages.
+
+\subsection{Selection and interpretation}
+The final comparative interpretation weighs cluster sizes, within-space geometry, fixed-count ablation, stability and intelligible profiles. A score-maximizing partition with a tiny outlier group may be less useful than a balanced, stable one. Cluster numbers are arbitrary identifiers, and descriptive labels summarize profiles rather than define fixed household types. Later-period summaries assess persistence and differentiation, with both means and distributions considered where available. They do not provide classification accuracy, predict individual outcomes with calibrated error, or identify the incremental effect of a marketing action.

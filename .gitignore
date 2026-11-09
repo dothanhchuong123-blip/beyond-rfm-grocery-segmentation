@@ -1,0 +1,21 @@
+data/raw/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.blg
+tmp/
+output/pdf/main.pdf
+
+# Local-only files (course brief, duplicate logos, internal review notes)
+Mid-Term.pdf
+LOGO*.jpg
+logo.*.png
+docs/methodology-review.md

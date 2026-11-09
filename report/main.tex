@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{Latin Modern Roman}}
+\usepackage{microtype,graphicx,booktabs,tabularx,amsmath,amssymb,xcolor,enumitem,fancyhdr,hyperref}
+\definecolor{ink}{HTML}{153A47}
+\hypersetup{colorlinks=true,linkcolor=ink,urlcolor=ink,citecolor=ink}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setcounter{tocdepth}{1}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\raggedbottom
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Beyond RFM}
+\fancyhead[R]{\small Mid-term research report}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\begin{document}
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\centering
+\begin{tabular}{@{}c@{\hspace{14mm}}c@{}}
+\fbox{\includegraphics[height=27mm]{assets/university-logo.jpg}} &
+\fbox{\includegraphics[height=27mm]{assets/faculty-logo.png}}
+\end{tabular}\par\vspace{12mm}
+{\large MID-TERM PROJECT\par}\vspace{30mm}
+{\Huge\bfseries Beyond RFM?\par}\vspace{5mm}
+{\LARGE Evaluating Product-Aware Household Segmentation in Grocery Retail\par}\vspace{20mm}
+{\large Grocery Store Dataset (Transaction \& Product)\par}
+\vfill
+\begin{tabular}{r@{\hspace{3mm}}l}
+Course:&Data Structures and Algorithms with Python\\
+Team / authors:&Đỗ Thành Chương - 11251670\\
+&Phạm Hải Đăng - 11251792\\
+&Nguyễn Ngọc Long - 11254986\\
+Instructor:&Trần Đức Minh
+\end{tabular}
+\vspace{10mm}
+\end{titlepage}
+\hypersetup{pageanchor=true}
+\pagenumbering{roman}
+\input{overview}
+\begin{abstract}
+This study evaluates whether household shopping behavior and department composition improve grocery retail segmentation beyond a recency, frequency and monetary-value (RFM) baseline. Audited transaction and product records yield 2,498 calibration households. K-means, Ward hierarchical clustering and DBSCAN are compared using within-space geometry, cluster size, sampling stability, fixed-count ablation, common-space diagnostics and a later-period descriptive holdout. All representative K-means fits select two broad activity groups. K-means is more stable than Ward; RFM's mean subsample adjusted Rand index is 0.980, versus 0.964 for the product-aware representation. Later-spend explained variance is 0.204 for RFM and 0.202 for Product, and the fixed three-cluster comparison likewise does not favor enrichment. Product features supply department descriptions, but membership is sensitive to their weight. After label alignment, 287 households change groups between RFM and Product. An exploratory later-category extension finds a small, uncertain Product advantage in department-share separation (0.386\% versus 0.299\% of variation explained). RFM remains the preferred default under the tested design. The results describe observational purchase patterns and do not establish causal marketing lift.
+\end{abstract}
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\input{introduction}
+\input{features}
+\input{results}
+\input{insights}
+\input{discussion}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

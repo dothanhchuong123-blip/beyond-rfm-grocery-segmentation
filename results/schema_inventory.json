@@ -1,0 +1,158 @@
+[
+  {
+    "file": "campaign_desc.csv",
+    "columns": [
+      "DESCRIPTION",
+      "CAMPAIGN",
+      "START_DAY",
+      "END_DAY"
+    ],
+    "sample_dtypes": {
+      "DESCRIPTION": "object",
+      "CAMPAIGN": "int64",
+      "START_DAY": "int64",
+      "END_DAY": "int64"
+    },
+    "encoding": "UTF-8 compatible: full byte stream decode succeeded"
+  },
+  {
+    "file": "campaign_table.csv",
+    "columns": [
+      "DESCRIPTION",
+      "household_key",
+      "CAMPAIGN"
+    ],
+    "sample_dtypes": {
+      "DESCRIPTION": "object",
+      "household_key": "int64",
+      "CAMPAIGN": "int64"
+    },
+    "encoding": "UTF-8 compatible: full byte stream decode succeeded"
+  },
+  {
+    "file": "causal_data.csv",
+    "columns": [
+      "PRODUCT_ID",
+      "STORE_ID",
+      "WEEK_NO",
+      "display",
+      "mailer"
+    ],
+    "sample_dtypes": {
+      "PRODUCT_ID": "int64",
+      "STORE_ID": "int64",
+      "WEEK_NO": "int64",
+      "display": "object",
+      "mailer": "object"
+    },
+    "encoding": "UTF-8 compatible: full byte stream decode succeeded"
+  },
+  {
+    "file": "coupon.csv",
+    "columns": [
+      "COUPON_UPC",
+      "PRODUCT_ID",
+      "CAMPAIGN"
+    ],
+    "sample_dtypes": {
+      "COUPON_UPC": "int64",
+      "PRODUCT_ID": "int64",
+      "CAMPAIGN": "int64"
+    },
+    "encoding": "UTF-8 compatible: full byte stream decode succeeded"
+  },
+  {
+    "file": "coupon_redempt.csv",
+    "columns": [
+      "household_key",
+      "DAY",
+      "COUPON_UPC",
+      "CAMPAIGN"
+    ],
+    "sample_dtypes": {
+      "household_key": "int64",
+      "DAY": "int64",
+      "COUPON_UPC": "int64",
+      "CAMPAIGN": "int64"
+    },
+    "encoding": "UTF-8 compatible: full byte stream decode succeeded"
+  },
+  {
+    "file": "hh_demographic.csv",
+    "columns": [
+      "AGE_DESC",
+      "MARITAL_STATUS_CODE",
+      "INCOME_DESC",
+      "HOMEOWNER_DESC",
+      "HH_COMP_DESC",
+      "HOUSEHOLD_SIZE_DESC",
+      "KID_CATEGORY_DESC",
+      "household_key"
+    ],
+    "sample_dtypes": {
+      "AGE_DESC": "object",
+      "MARITAL_STATUS_CODE": "object",
+      "INCOME_DESC": "object",
+      "HOMEOWNER_DESC": "object",
+      "HH_COMP_DESC": "object",
+      "HOUSEHOLD_SIZE_DESC": "object",
+      "KID_CATEGORY_DESC": "object",
+      "household_key": "int64"
+    },
+    "encoding": "UTF-8 compatible: full byte stream decode succeeded"
+  },
+  {
+    "file": "product.csv",
+    "columns": [
+      "PRODUCT_ID",
+      "MANUFACTURER",
+      "DEPARTMENT",
+      "BRAND",
+      "COMMODITY_DESC",
+      "SUB_COMMODITY_DESC",
+      "CURR_SIZE_OF_PRODUCT"
+    ],
+    "sample_dtypes": {
+      "PRODUCT_ID": "int64",
+      "MANUFACTURER": "int64",
+      "DEPARTMENT": "object",
+      "BRAND": "object",
+      "COMMODITY_DESC": "object",
+      "SUB_COMMODITY_DESC": "object",
+      "CURR_SIZE_OF_PRODUCT": "object"
+    },
+    "encoding": "UTF-8 compatible: full byte stream decode succeeded"
+  },
+  {
+    "file": "transaction_data.csv",
+    "columns": [
+      "household_key",
+      "BASKET_ID",
+      "DAY",
+      "PRODUCT_ID",
+      "QUANTITY",
+      "SALES_VALUE",
+      "STORE_ID",
+      "RETAIL_DISC",
+      "TRANS_TIME",
+      "WEEK_NO",
+      "COUPON_DISC",
+      "COUPON_MATCH_DISC"
+    ],
+    "sample_dtypes": {
+      "household_key": "int64",
+      "BASKET_ID": "int64",
+      "DAY": "int64",
+      "PRODUCT_ID": "int64",
+      "QUANTITY": "int64",
+      "SALES_VALUE": "float64",
+      "STORE_ID": "int64",
+      "RETAIL_DISC": "float64",
+      "TRANS_TIME": "int64",
+      "WEEK_NO": "int64",
+      "COUPON_DISC": "float64",
+      "COUPON_MATCH_DISC": "float64"
+    },
+    "encoding": "UTF-8 compatible: full byte stream decode succeeded"
+  }
+]

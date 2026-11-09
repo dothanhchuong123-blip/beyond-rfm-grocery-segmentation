@@ -1,0 +1,62 @@
+{
+  "raw_transaction_rows": 2595732,
+  "raw_product_rows": 92353,
+  "transaction_exact_duplicate_rows": 0,
+  "product_duplicate_keys": 0,
+  "missing_transaction_cells": {
+    "household_key": 0,
+    "BASKET_ID": 0,
+    "DAY": 0,
+    "PRODUCT_ID": 0,
+    "QUANTITY": 0,
+    "SALES_VALUE": 0,
+    "STORE_ID": 0,
+    "RETAIL_DISC": 0,
+    "TRANS_TIME": 0,
+    "WEEK_NO": 0,
+    "COUPON_DISC": 0,
+    "COUPON_MATCH_DISC": 0
+  },
+  "missing_product_cells": {
+    "PRODUCT_ID": 0,
+    "MANUFACTURER": 0,
+    "DEPARTMENT": 0,
+    "BRAND": 0,
+    "COMMODITY_DESC": 0,
+    "SUB_COMMODITY_DESC": 0,
+    "CURR_SIZE_OF_PRODUCT": 0
+  },
+  "day_min": 1,
+  "day_max": 711,
+  "households_raw": 2500,
+  "nonpositive_quantity_rows": 14466,
+  "nonpositive_sales_rows": 18850,
+  "negative_retail_discount_rows": 1303026,
+  "unmatched_product_rows": 0,
+  "retained_rows": 2576815,
+  "excluded_rows": 18917,
+  "basket_household_conflicts": 0,
+  "basket_day_conflicts": 0,
+  "calibration_end_day": 500,
+  "calibration_rows": 1726165,
+  "holdout_rows": 850650,
+  "calibration_households": 2498,
+  "holdout_only_households": 2,
+  "top_departments": [
+    "GROCERY",
+    "DRUG GM",
+    "PRODUCE",
+    "MEAT",
+    "KIOSK-GAS",
+    "MEAT-PCKGD",
+    "DELI",
+    "PASTRY"
+  ],
+  "feature_dimensions": {
+    "RFM": 3,
+    "Behavior": 8,
+    "Product": 17
+  },
+  "duplicate_policy": "Retain exact source rows; repeated product scans cannot be established as errors.",
+  "cleaning_policy": "Exclude nonpositive quantity or sales; all analysis concerns positive purchase activity."
+}
