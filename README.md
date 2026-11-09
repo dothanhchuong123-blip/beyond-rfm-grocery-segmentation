@@ -4,7 +4,7 @@
 
 Mid-term project, **Topic 10: Clustering on the Grocery Store Dataset (Transaction & Product)**. It uses dunnhumby's *The Complete Journey*.
 
-**Course:** Data Structures and Algorithms with Python · **Instructor:** Trần Đức Minh
+**Course:** Data Analysis with Python · **Instructor:** Trần Đức Minh
 
 **Team:** Đỗ Thành Chương (11251670) · Phạm Hải Đăng (11251792) · Nguyễn Ngọc Long (11254986)
 
